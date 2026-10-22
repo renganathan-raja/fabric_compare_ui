@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.pytest_cache/
+votes.csv
+# raw data stays local; the app runs from deploy/ (rebuild with utils/prepare_deploy.py)
+data/

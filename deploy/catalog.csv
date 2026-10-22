@@ -1,0 +1,1042 @@
+image_id,rd_number,material_id,composition,color_effect,pattern,pattern_scale,shine_effect,shine_level,sheerness,apparent_material_class,visible_construction,openness,structure_visibility,surface,texture_scale,yarn_texture,surface_uniformity,washed_look,pile,surface_fuzz,embellishment
+C100203538,1049786,C100202896,Recycled Nylon,none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C100520129,1049869,C100518555,Cotton Better Cotton (BCI),none,stripe,small,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,washed,none,slight,none
+C100531769,1049878,C100531743,Cotton USCTP Tracked US Cotton,none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C100532767,1049879,C100532719,"Recycled Cotton,Cotton Better Cotton (BCI)",two_tone,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,irregular,washed,none,slight,none
+C101618021,1050297,C101617695,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,textured,medium,smooth,uniform,washed,none,slight,none
+C101618413,1050299,C101617697,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C1019186,1005868,C1018914,"Polyester,Polyester Recycled Traceable",none,none,none,none,matte,opaque,knit,brushed_fleece,closed,not_visible,brushed,medium,nubby,irregular,none,medium,fuzzy,none
+C102374919,1050358,C101730074,"Cotton Better Cotton (BCI),Nylon",heather_melange,geometric,medium,none,matte,opaque,knit,unsure,closed,clear,textured,medium,unsure,uniform,none,none,fuzzy,none
+C102374922,1050357,C101730073,"Cotton Better Cotton (BCI),Nylon,Others",none,geometric,medium,none,matte,semi_sheer,knit,jacquard,small_openings,clear,textured,medium,smooth,uniform,none,none,slight,none
+C102374940,1050562,C102373181,"Cotton Better Cotton (BCI),Cashmere",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C102374943,1050557,C102372252,"Cotton Better Cotton (BCI),Nylon",none,none,none,none,matte,opaque,knit,pile_knit,closed,not_visible,textured,fine,boucle_looped,uniform,none,low,fuzzy,none
+C102392197,1050573,C102390818,Wool,none,none,none,none,matte,opaque,knit,unsure,closed,clear,textured,coarse,slub,uniform,none,none,fuzzy,none
+C102392332,1050574,C102390819,"Nylon,Recycled Polyester,Wool,Spandex",heather_melange,stripe,medium,none,matte,opaque,knit,unsure,closed,partial,brushed,coarse,unsure,irregular,none,none,hairy,none
+C102393657,1050575,C102390820,"Nylon,Recycled Polyester,Others",heather_melange,stripe,small,none,matte,opaque,knit,jersey,closed,clear,flat,coarse,slub,uniform,none,none,fuzzy,none
+C103347816,1050726|1050727,C103347561,Cotton Better Cotton (BCI),none,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,washed,none,none,none
+C103697616,1050766,C103694109,"Cotton Better Cotton (BCI),Viscose Rayon Conventional,Spandex",none,none,none,satin_sheen,low_sheen,opaque,woven,satin_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C103713469,1050770,C103711001,Cotton Better Cotton (BCI),multicolor,check_plaid,large,none,matte,unsure,woven,twill,closed,clear,brushed,medium,smooth,uniform,none,none,fuzzy,none
+C104290226,1050867,C104289495,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,irregular,washed,none,slight,none
+C104497165,1051085,C104496452,"Spandex,Cotton Regenerative RegenAgri",two_tone,none,none,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,washed,none,none,none
+C104654247,1051111,C104654221,Viscose Rayon Conventional,none,floral,medium,none,matte,opaque,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C104832719,1051158,C104832390,"Recycled Polyester,Spandex",none,none,none,none,matte,opaque,unsure,unsure,closed,not_visible,brushed,fine,unsure,uniform,none,low,fuzzy,none
+C104832791,1051159,C104832392,"Recycled Polyester,Spandex",none,none,none,none,matte,opaque,coated_leather_like,unsure,closed,not_visible,brushed,fine,unsure,uniform,none,low,slight,none
+C104838871,1051165|1051164,C104838844,"Recycled Polyester,Spandex,Wool,Viscose Rayon Conventional",multicolor,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C104846664,1051173,C104833253,Organic Cotton,multicolor,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,brushed,fine,smooth,uniform,none,none,fuzzy,none
+C104849501,1051179,C104833255,"Cotton Better Cotton (BCI),Cotton USCTP Tracked US Cotton,Spandex",none,none,none,none,matte,unsure,woven,twill,closed,clear,flat,medium,smooth,uniform,washed,none,none,none
+C104853709,1051181,C104853361,Cotton Better Cotton (BCI),two_tone,dot,small,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C104859119,1051182,C104858969,"Cotton Better Cotton (BCI),Viscose Rayon Conventional,Spandex",none,none,none,none,matte,unsure,woven,twill,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C104883912,1051385|1051198,C105307207,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C105010055,1051213,C105009886,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,woven,plain_weave,closed,partial,crinkled,medium,smooth,uniform,none,none,slight,none
+C105136463,1051284,C105136432,Cotton Better Cotton (BCI),none,floral,small,none,matte,semi_sheer,woven,plain_weave,small_openings,clear,crinkled,fine,smooth,irregular,none,none,none,none
+C105136796,1051286,C105136436,"TENCEL Lyocell,Recycled Polyester",none,floral,medium,satin_sheen,low_sheen,semi_sheer,woven,plain_weave,closed,clear,textured,medium,smooth,irregular,none,none,none,embroidery
+C105136952,1051288,C105136440,"Recycled Polyester,Spandex,Viscose Rayon Conventional",none,none,none,none,matte,opaque,unsure,unsure,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C105180104,1051350,C105176727,,heather_melange,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C105181353,1051325,C105152269,"Cotton Better Cotton (BCI),Wool",heather_melange,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C105307654,1051386,C105307628,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C105309386,1051390,C105309358,"Nylon,Spandex",none,none,none,none,low_sheen,opaque,woven,unsure,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C105309673,1051391,C105309645,"Recycled Polyester,Polyester",none,none,none,none,low_sheen,opaque,woven,twill,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C105349621,1051406,C105348195,"Wool,Polyester Recycled Traceable",none,check_plaid,large,none,matte,opaque,woven,twill,closed,partial,brushed,medium,slub,irregular,none,none,fuzzy,none
+C105350194,1051407|1051482,C105348197,Recycled Polyester,two_tone,check_plaid,medium,none,matte,opaque,woven,unsure,closed,not_visible,brushed,medium,unsure,uniform,none,low,fuzzy,none
+C105487941,1051438,C105487915,Cotton Better Cotton (BCI),none,check_plaid,medium,none,matte,unsure,woven,plain_weave,closed,clear,textured,medium,slub,irregular,washed,none,slight,none
+C105610202,1051483,C105609725,"Recycled Polyester,Recycled Wool,Others",heather_melange,none,none,none,matte,opaque,woven,twill,closed,clear,textured,medium,slub,uniform,none,none,fuzzy,none
+C105613359,1051486,C105613332,"Spandex,Recycled Polyester",two_tone,none,none,none,low_sheen,opaque,coated_leather_like,unsure,closed,not_visible,textured,medium,unsure,irregular,distressed,none,none,none
+C105616637,1051491,C105616607,Cotton Better Cotton (BCI),multicolor,stripe,medium,none,matte,unsure,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C105736823,1051516,C105734810,Nylon,none,none,none,none,low_sheen,unsure,woven,plain_weave,closed,partial,crinkled,fine,smooth,irregular,none,none,none,none
+C10574760,1017979|1025856,C10574735,"Cotton,Viscose Rayon Conventional,Spandex,Polyester",heather_melange,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,slight,none
+C10575477,1017807,C10242401,"Polyester,Spandex,Cotton Better Cotton (BCI)",none,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,slight,none
+C105758767,1051533,C105758712,"Recycled Polyester,Polyester",none,none,none,none,matte,opaque,woven,unsure,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C10580502,1017981,C10574740,"Polyester,Spandex,Cotton Better Cotton (BCI)",none,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C106629305,1051686,C106628777,Recycled Polyester,none,none,none,none,low_sheen,opaque,coated_leather_like,not_visible,closed,not_visible,textured,fine,unsure,uniform,washed,none,none,none
+C107637351,1051833,C107637321,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C107966079,1050180,C101222384,"Responsible Wool Standard (RWS) Wool,Spandex,Recycled Polyester",none,geometric,medium,none,matte,semi_sheer,knit,lace,small_openings,clear,textured,medium,smooth,uniform,none,none,fuzzy,none
+C1082466,1005906,C1082440,,none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C1082612,1005907,C1082447,,two_tone,stripe,medium,none,matte,opaque,knit,jersey,closed,clear,textured,medium,smooth,uniform,none,none,slight,none
+C109957360,1052381,C109957311,Cotton Better Cotton (BCI),none,check_plaid,large,none,matte,opaque,woven,twill,closed,partial,brushed,medium,unsure,irregular,none,low,fuzzy,none
+C109976351,1052390,C109976305,"Polyester Recycled Traceable,Wool",heather_melange,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,nubby,uniform,none,none,slight,none
+C110070833,1052402,C110069900,"Cotton Better Cotton (BCI),Recycled Cotton",two_tone,none,none,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,irregular,distressed,none,slight,none
+C110096215,1052721,C110095989,"Spandex,Modal,Cotton Organic Supima",none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C111009831,1052895,C111009360,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,unsure,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C112237392,1053079,C112237364,Nylon Conventional 6,none,none,none,none,low_sheen,opaque,woven,quilted,closed,clear,quilted,fine,smooth,uniform,none,none,none,none
+C112249514,1053081|1053082,C112249182,Cotton Better Cotton (BCI),none,stripe,medium,none,matte,opaque,woven,dobby,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C112249517,1053081|1053083,C112249182,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,washed,none,slight,none
+C112261249,1053093,C112254731,"Cotton Better Cotton (BCI),Recycled Cotton",none,none,none,none,matte,opaque,woven,dobby,small_openings,clear,textured,medium,smooth,uniform,none,none,slight,none
+C112279321,1053096,C112278224,"Recycled Polyester,Wool,Spandex,Alpaca Hair",heather_melange,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,medium,slub,irregular,none,none,fuzzy,none
+C112279431,1053096,C112278224,"Recycled Polyester,Wool,Spandex,Alpaca Hair",heather_melange,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,medium,slub,irregular,none,none,fuzzy,none
+C112279581,1053096,C112278224,"Recycled Polyester,Wool,Spandex,Alpaca Hair",heather_melange,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,medium,slub,uniform,none,none,fuzzy,none
+C112279769,1053096,C112278224,"Recycled Polyester,Wool,Spandex,Alpaca Hair",heather_melange,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,medium,slub,uniform,none,none,fuzzy,none
+C112390984,1053101,C112390924,Polyester,none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C11288848,1018115,C11288822,"Cotton,Modal,Metallic",multicolor,floral,small,lurex_yarn_shine,low_sheen,semi_sheer,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C112893390,1053237|1053226,C113066448,"Cotton Better Cotton (BCI),Recycled Polyester",none,check_plaid,small,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C112893394,1053227|1053238,C112893766,"Spandex,Recycled Polyester",two_tone,check_plaid,small,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C112910153,1053230,C112907297,,none,geometric,small,none,low_sheen,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C113045458,1053233,C113045430,"Cotton Regenerative RegenAgri,Spandex",none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C113225037,1053249,C113217061,"Merino Wool,Nylon",heather_melange,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,medium,nubby,uniform,none,none,slight,none
+C113226199,1053253,C113226137,"Nylon,Recycled Polyester,Wool",none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,coarse,nubby,uniform,none,none,hairy,none
+C113244142,1053271,C113244111,,none,none,none,lurex_yarn_shine,high,unsure,knit,jersey,closed,clear,textured,fine,nubby,uniform,none,none,none,none
+C113280575,1053280,C113279935,"Polyester Recycled Traceable,Spandex",none,none,none,none,low_sheen,semi_sheer,knit,mesh,small_openings,clear,textured,fine,smooth,uniform,none,none,none,none
+C113285602,1053283,C113279941,"Nylon,Spandex,Recycled Polyester",none,none,none,none,matte,opaque,woven,waffle,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C113290825,1053284,C113279943,"Nylon,Polyester Recycled Traceable,Spandex",two_tone,geometric,small,none,matte,opaque,woven,ripstop,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C113370016,1053289,C113369672,"Acrylic,Cotton Better Cotton (BCI),Nylon",heather_melange,none,none,none,matte,opaque,knit,jersey,closed,clear,textured,coarse,nubby,uniform,none,none,fuzzy,none
+C113370020,1053288,C113369671,"Alpaca Hair,Nylon,Recycled Polyester,Wool",none,none,none,none,matte,opaque,knit,jersey,closed,partial,textured,coarse,nubby,uniform,none,high,hairy,none
+C113406625,1053316,C113407564,Cotton Better Cotton (BCI),none,check_plaid,large,none,matte,opaque,woven,dobby,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C113406628,1053314,C113406183,,none,check_plaid,large,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C113414557,1053322|1053321,C113407573,Recycled Polyester,heather_melange,stripe,medium,none,matte,opaque,unsure,unsure,closed,not_visible,brushed,coarse,unsure,irregular,none,none,hairy,none
+C113552540,1053344,C113552505,Recycled Polyester,multicolor,check_plaid,large,none,matte,opaque,woven,unsure,closed,not_visible,brushed,coarse,unsure,irregular,none,high,hairy,none
+C113707051,1053395,C113707025,Recycled Polyester,heather_melange,none,none,none,matte,opaque,woven,plain_weave,closed,clear,textured,coarse,nubby,irregular,none,none,slight,none
+C113865664,1053441,C113865638,Recycled Polyester,none,none,none,none,matte,unsure,woven,plain_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C113875039,1053429,C113808975,"Cotton Better Cotton (BCI),Nylon,Spandex",none,geometric,medium,none,matte,sheer,knit,lace,open,clear,textured,medium,smooth,irregular,none,none,none,none
+C113875127,1053449,C113873704,Lenzing Ecovero,none,floral,medium,satin_sheen,low_sheen,semi_sheer,woven,jacquard,small_openings,clear,textured,medium,smooth,irregular,none,none,none,none
+C113875914,1053450,C113875685,"Polyester,Recycled Polyester",none,check_plaid,medium,none,matte,semi_sheer,woven,dobby,open,clear,textured,medium,smooth,uniform,none,none,none,none
+C113876872,1053413,C113808508,"Recycled Polyester,Spandex",none,none,none,none,matte,semi_sheer,knit,mesh,small_openings,clear,textured,fine,smooth,uniform,none,none,none,none
+C113877568,1053453,C113875689,"Cotton Better Cotton (BCI),Recycled Polyester",none,floral,medium,none,matte,semi_sheer,woven,plain_weave,small_openings,clear,crinkled,fine,smooth,irregular,none,none,none,none
+C113878408,1053454,C113875691,"Cotton Better Cotton (BCI),Nylon,Viscose Rayon Conventional",none,floral,medium,none,matte,sheer,knit,lace,open,clear,textured,medium,smooth,irregular,none,none,none,fringe
+C113878742,1053455,C113865644,"Wool,Polyester Recycled Traceable,Others",two_tone,check_plaid,large,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C113878773,1053456,C113875693,Recycled Polyester,none,paisley,medium,none,low_sheen,opaque,woven,dobby,closed,clear,ribbed,fine,smooth,uniform,none,none,none,none
+C113879402,1053432,C113808978,"Recycled Polyester,Metallic,Spandex",none,none,none,lurex_yarn_shine|sparkle,high,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C113879577,1053426,C113808972,"Spandex,Recycled Polyester",heather_melange,geometric,medium,none,matte,opaque,knit,jacquard,small_openings,clear,textured,medium,unsure,uniform,none,none,fuzzy,none
+C113947372,1053491,C113928627,"Cotton Better Cotton (BCI),Spandex,Polyester Recycled Traceable",two_tone,geometric,small,none,matte,opaque,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C113947828,1053439,C113808985,,heather_melange,none,none,none,matte,opaque,woven,pile_woven,closed,clear,ribbed,coarse,unsure,uniform,none,low,fuzzy,none
+C114130379,1053574,C114130313,"Recycled Polyester,Others,Wool",none,other,small,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,none,none,fuzzy,none
+C114193426,1053433,C113808979,"Cotton Better Cotton (BCI),Recycled Polyester,Spandex",none,geometric,medium,none,matte,unsure,knit,unsure,closed,partial,textured,medium,smooth,uniform,none,none,slight,none
+C114292460,1053633,C114287949,Nylon,none,geometric,small,none,low_sheen,opaque,woven,ripstop,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C114394143,1053700,C114388739,"Cotton Better Cotton (BCI),Wool,Nylon",two_tone,stripe,small,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,fuzzy,none
+C115050124,1053825,C115049926,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,pile_woven,closed,clear,ribbed,medium,smooth,uniform,none,medium,fuzzy,none
+C115053999,1053830,C115053945,"Polyester,Wool,Others",heather_melange,geometric,small,none,matte,opaque,woven,twill,closed,clear,textured,medium,unsure,uniform,none,none,fuzzy,none
+C115184072,1053657,C114318779,"Cotton Better Cotton (BCI),Recycled Polyester",none,geometric,small,none,matte,opaque,woven,dobby,closed,clear,textured,coarse,nubby,uniform,none,none,fuzzy,none
+C115191475,1053646,C114310101,"Cotton Better Cotton (BCI),Polyester,Linen Conventional Irish",two_tone,floral,large,none,matte,unsure,woven,jacquard,closed,clear,textured,medium,smooth,irregular,none,low,slight,none
+C115196059,1053648,C114312738,"Wool,Polyester",heather_melange,check_plaid,large,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,none,none,slight,none
+C115467983,1053880,C115466998,,multicolor,stripe,medium,none,matte,opaque,knit,jersey,closed,clear,flat,coarse,smooth,uniform,none,none,slight,none
+C115563789,1053900,C115563719,Cotton Better Cotton (BCI),none,none,none,textured_shine,low_sheen,opaque,woven,pile_woven,closed,clear,ribbed,medium,smooth,uniform,none,medium,fuzzy,none
+C115621780,1053911,C115621750,"Cotton Better Cotton (BCI),Polyester,Spandex",none,none,none,none,matte,opaque,knit,pique,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C116444709,1050792,C103695956,"Spandex,Recycled Nylon",none,geometric,small,none,matte,unsure,knit,jersey,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C117593905,1069155|1031854,C165841294,"Recycled Polyester,Polyester",none,none,none,none,matte,unsure,unsure,unsure,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C117634395,1054344,C117634366,,none,none,none,satin_sheen,medium,opaque,woven,plain_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C117712110,1052809,C110510122,"Spandex,TENCEL Lyocell",none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,fine,smooth,uniform,none,none,none,none
+C117712197,1053844|1055982|1057434,C115169298,Cotton Better Cotton (BCI),heather_melange,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,fine,smooth,uniform,none,none,slight,none
+C117712329,1050443,C101888849,Polyester Recycled Traceable,none,geometric,small,satin_sheen,low_sheen,opaque,unsure,unsure,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C117744922,1051394,C105313285,"Cotton Better Cotton (BCI),Nylon Conventional 6,Spandex",none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C117745015,1050785,C103695952,"Spandex,Nylon Recycled 6 Traceable",none,none,none,none,low_sheen,unsure,unsure,unsure,closed,not_visible,flat,fine,unsure,uniform,none,none,none,none
+C117745109,1056934|1052808,C125641982,"Cotton Better Cotton (BCI),Spandex,TENCEL Modal",none,none,none,satin_sheen,low_sheen,opaque,coated_leather_like,unsure,closed,not_visible,flat,fine,unsure,uniform,none,none,none,none
+C117745115,1052866,C110828655,"Spandex,Recycled Polyester",none,none,none,satin_sheen,low_sheen,unsure,unsure,unsure,closed,not_visible,flat,fine,unsure,uniform,none,none,none,none
+C117745173,1052947,C111357722,"Spandex,TENCEL Modal",none,none,none,none,low_sheen,unsure,unsure,unsure,closed,not_visible,flat,fine,unsure,uniform,none,none,none,none
+C117828703,1054394,C117828261,"Cotton Better Cotton (BCI),Polyester Recycled Traceable",multicolor,check_plaid,large,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C117828706,1054396,C117829067,"Cotton Better Cotton (BCI),Polyester Recycled Traceable",multicolor,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C117828709,1054395,C117829065,"Cotton Better Cotton (BCI),Polyester Recycled Traceable",multicolor,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,brushed,medium,smooth,uniform,none,none,fuzzy,none
+C118363729,1053496,C114003085,"Cotton Better Cotton (BCI),Spandex",none,none,none,none,matte,unsure,woven,plain_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C118363810,1052868,C110828659,"Recycled Nylon,Spandex",none,none,none,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C118364008,1052739,C110227583,"Polyester,Polyester Recycled Traceable",none,none,none,none,matte,unsure,knit,jersey,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C118364015,1053342|1056903|1055981,C113550066,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,woven,plain_weave,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C1183949,1005998,C1183587,Polyester,none,none,none,none,matte,unsure,knit,mesh,small_openings,clear,textured,fine,smooth,uniform,none,none,none,none
+C118412607,1053074,C112093885,"Spandex,Nylon Recycled 6 Traceable",none,none,none,none,matte,opaque,woven,ripstop,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C118442764,1054444,C118442734,Polyester,none,none,none,none,low_sheen,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C118736889,1054468,C118736819,"Cotton Better Cotton (BCI),Nylon",none,none,none,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C119334768,1054606,C119334738,Nylon,none,none,none,none,low_sheen,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C119785876,1049492,C98306073,"Nylon Recycled 6 Traceable,Spandex",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C119787216,1053839,C115067619,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C119848635,1054727,C119848470,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,irregular,washed,none,slight,none
+C11998401,1017949,C10381368,"Combed Cotton,Polyester",heather_melange,none,none,none,matte,opaque,knit,terry_loop,closed,clear,textured,fine,smooth,irregular,none,low,slight,none
+C12016920,1017803,C10153050,"Recycled Polyester,Spandex",none,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C120271138,1052891,C111001372,Cotton Better Cotton (BCI),none,dot,small,none,matte,unsure,woven,plain_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C120271163,1050834,C103956509,Recycled Polyester,none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C120271198,1053548,C114039021,Cotton Better Cotton (BCI),none,none,none,satin_sheen,low_sheen,unsure,woven,unsure,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C120271354,1049377,C97945848,Recycled Polyester,none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C120271515,1053348,C113550072,"Cotton Better Cotton (BCI),Spandex",none,none,none,satin_sheen,low_sheen,opaque,unsure,unsure,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C120271577,1055911|1050782,C123457794,"Polyester Recycled Traceable,Polyester Traceable LanzaTech Carbon Smart",none,none,none,none,matte,semi_sheer,knit,mesh,small_openings,clear,textured,fine,smooth,uniform,none,none,none,none
+C120271746,1062188|1062189|1033411,C138806484,"Polyester Recycled Traceable,Lycra",none,none,none,satin_sheen,low_sheen,unsure,unsure,unsure,closed,not_visible,flat,fine,unsure,uniform,none,none,none,none
+C120375697,1053846,C115170771,Cotton Better Cotton (BCI),unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,not_visible,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure
+C120377088,1059068|1059066|1050857|1059067,C131563846,Nylon Recycled 6,none,none,none,none,matte,unsure,unsure,unsure,closed,not_visible,flat,fine,unsure,uniform,none,none,none,none
+C120377371,1052735|1055159,C110227579,Cotton Better Cotton (BCI),none,check_plaid,small,none,matte,unsure,woven,ripstop,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C120378292,1053365,C113587602,"Nylon,Cupro Rayon",none,none,none,none,low_sheen,opaque,woven,twill,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C120718949,1051824,C107492818,"Recycled Polyester,Elastane Biobased Creora",none,dot,small,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C120719098,1050822,C103913292,"Spandex,Polyester Recycled Traceable",none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,fine,smooth,uniform,none,none,none,none
+C120722834,1066615|1053836,C153990449,Recycled Nylon,two_tone,check_plaid,medium,none,matte,unsure,woven,ripstop,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C120722891,1049490,C98306069,"Nylon,Spandex",none,none,none,satin_sheen,medium,unsure,woven,satin_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C121254431,1052204,C109213416,"Nylon Recycled 6,Polyester",none,none,none,none,matte,opaque,unsure,unsure,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C121450344,1053084,C112252948,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C121450390,1051239,C105039343,Recycled Polyester,none,geometric,small,none,matte,semi_sheer,knit,mesh,small_openings,clear,textured,fine,smooth,uniform,none,none,none,none
+C1215243,1005959,C1119120,"Polyester,Recycled Polyester",none,camo,medium,none,low_sheen,opaque,woven,jacquard,closed,clear,textured,medium,smooth,irregular,none,none,none,none
+C122189648,1055174,C122185614,Recycled Polyester,none,none,none,none,matte,sheer,woven,plain_weave,closed,partial,crinkled,fine,smooth,irregular,none,none,none,none
+C122192823,1055176,C122192695,"Cotton Better Cotton (BCI),Polyester",heather_melange,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,textured,fine,nubby,irregular,none,none,slight,none
+C122199562,1055181,C122199108,"Cotton Better Cotton (BCI),Merino Wool,Others",none,geometric,large,none,matte,opaque,knit,jacquard,closed,clear,textured,coarse,smooth,irregular,none,none,slight,none
+C122351025,1055240,C122350249,"Cotton Better Cotton (BCI),Recycled Polyester,Merino Wool",none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C122869662,1055578,C122866318,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C123109471,1055490,C122699233,Recycled Polyester,none,none,none,none,low_sheen,opaque,knit,pile_knit,closed,not_visible,textured,coarse,smooth,irregular,none,high,hairy,none
+C123109486,1055490,C122699233,Recycled Polyester,none,none,none,none,low_sheen,opaque,unsure,unsure,closed,not_visible,textured,coarse,smooth,uniform,none,high,hairy,none
+C123235268,1055558,C122789849,"Spandex,Recycled Polyester",two_tone,stripe,medium,none,matte,semi_sheer,knit,mesh,small_openings,clear,textured,medium,unsure,uniform,none,none,slight,none
+C123235866,1055557,C122789848,"Cotton Better Cotton (BCI),Spandex,Polyester Recycled Traceable",none,geometric,medium,none,matte,unsure,knit,unsure,closed,partial,crinkled,medium,smooth,uniform,none,none,none,none
+C123236179,1055551,C122789842,"Cotton Better Cotton (BCI),Polyester Recycled Traceable",none,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,fine,smooth,uniform,none,none,none,none
+C123236217,1055561,C122789852,"Cotton Better Cotton (BCI),Spandex,Recycled Polyester",none,stripe,medium,none,matte,semi_sheer,knit,lace,open,clear,textured,medium,smooth,irregular,none,none,slight,none
+C123236437,1064269|1055563,C145660338,"Spandex,Polyester Recycled Traceable,Cotton USCTP US Protocol Cotton,Cotton Better Cotton (BCI)",none,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,slight,none
+C123477591,1055930|1055931,C123477559,"Cotton Better Cotton (BCI),Linen Masters of Flax Fibre (MFF)",none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,slub,irregular,none,none,slight,none
+C123609155,1056009,C123608886,"Cotton Better Cotton (BCI),Spandex,Recycled Polyester,Viscose Rayon Conventional",none,check_plaid,small,none,matte,opaque,woven,ripstop,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C123609162,1056013,C123608891,"Spandex,Recycled Polyester,Cotton Better Cotton (BCI),Viscose Rayon Conventional",heather_melange,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C123609168,1056012,C123608889,"Cotton Better Cotton (BCI),Spandex,Recycled Polyester,Viscose Rayon Conventional",heather_melange,check_plaid,medium,none,matte,unsure,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C123609183,1055996,C123597981,,two_tone,stripe,small,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C123614380,1056027,C123613874,Cotton Better Cotton (BCI),none,stripe,medium,none,matte,unsure,woven,dobby,small_openings,clear,textured,medium,slub,irregular,none,none,slight,none
+C123614383,1056025,C123609105,Cotton Better Cotton (BCI),none,check_plaid,medium,none,matte,unsure,woven,dobby,small_openings,clear,textured,medium,slub,irregular,washed,none,slight,none
+C123614386,1056027|1056030,C123613874,Cotton Better Cotton (BCI),multicolor,stripe,medium,none,matte,unsure,woven,dobby,closed,clear,textured,medium,smooth,irregular,none,none,slight,none
+C123614389,1056031,C123613878,"Linen Masters of Flax Fibre (MFF),Cotton Better Cotton (BCI)",none,stripe,medium,none,matte,opaque,woven,plain_weave,small_openings,clear,textured,coarse,slub,uniform,none,none,slight,none
+C123683945,1051866,C107704937,Recycled Nylon,none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C123683999,1051862,C107704930,"Recycled Polyester,Spandex",unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,not_visible,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure
+C123684268,1051858,C107704923,Recycled Polyester,none,none,none,none,matte,opaque,unsure,unsure,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C123725711,1055993,C123598848,Cotton Regenerative RegenAgri,none,none,none,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,washed,none,slight,none
+C123725714,1056072,C123725617,Cotton Better Cotton (BCI),unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,not_visible,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure
+C123725717,1056071,C123725614,Cotton Better Cotton (BCI),unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,not_visible,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure
+C123727725,1056073,C123725620,Cotton Better Cotton (BCI),multicolor,check_plaid,large,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,washed,none,none,none
+C123730275,1056076,C123730250,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,plain_weave,closed,not_visible,crinkled,fine,smooth,irregular,none,none,none,none
+C123730278,1056075,C123730247,Recycled Polyester,none,check_plaid,small,none,matte,unsure,woven,plain_weave,closed,partial,crinkled,medium,smooth,uniform,none,none,none,none
+C123748663,1056100,C123748628,"Cotton Better Cotton (BCI),Linen Masters of Flax Fibre (MFF)",heather_melange,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,slub,irregular,washed,none,slight,none
+C123750422,1056101,C123748631,"Cotton Better Cotton (BCI),Viscose Rayon Conventional",heather_melange,stripe,medium,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,slub,irregular,unsure,none,slight,none
+C123751828,1056102,C123751555,Cotton Better Cotton (BCI),none,geometric,small,none,matte,semi_sheer,woven,dobby,closed,clear,crinkled,fine,smooth,irregular,washed,none,none,none
+C123751832,1056103,C123752253,"Cotton Better Cotton (BCI),Viscose Rayon Conventional",none,stripe,small,none,matte,unsure,woven,plain_weave,closed,clear,crinkled,fine,smooth,uniform,none,none,none,none
+C123751836,1056104|1056105,C123752256,Cotton Better Cotton (BCI),heather_melange,stripe,small,none,matte,unsure,woven,dobby,closed,clear,textured,fine,slub,irregular,washed,none,none,none
+C123751841,1056107,C123753695,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,opaque,woven,dobby,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C123751848,1056109,C123753697,"Cotton Better Cotton (BCI),Viscose Rayon Conventional",none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,crinkled,fine,smooth,irregular,none,none,none,none
+C123758436,1056078,C123737861,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C123758465,1056079,C123737862,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,medium,smooth,uniform,none,none,fuzzy,none
+C123759380,1056115,C123739579,"Cotton Better Cotton (BCI),Polyester",none,geometric,medium,none,matte,semi_sheer,knit,jacquard,open,clear,textured,medium,smooth,irregular,none,none,none,none
+C123911404,1056159,C123896994,Cotton Better Cotton (BCI),multicolor,stripe,small,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C123911427,1051263,C105065307,Cotton Better Cotton (BCI),multi-tone,stripe,medium,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C124011494,1056205,C123998022,Cotton Better Cotton (BCI),two_tone,check_plaid,medium,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C124093288,1056208,C124092648,,none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,slight,none
+C124093292,1056209,C124092649,"Cotton Better Cotton (BCI),Nylon,Merino Wool",none,none,none,none,matte,opaque,knit,interlock,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C124093658,1056210,C124092650,"Cotton Better Cotton (BCI),Recycled Polyester",none,none,none,none,matte,opaque,knit,pile_knit,closed,not_visible,textured,medium,boucle_looped,uniform,none,low,fuzzy,none
+C124204098,1051860,C107704927,Nylon,none,none,none,none,matte,unsure,woven,plain_weave,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C124427728,1056319,C124427612,"Cotton Better Cotton (BCI),Recycled Polyester",none,none,none,none,matte,sheer,knit,unsure,open,clear,textured,coarse,smooth,uniform,none,none,none,none
+C124427848,1056320,C124427613,Cotton Better Cotton (BCI),none,none,none,none,matte,sheer,knit,mesh,open,clear,textured,coarse,smooth,uniform,none,none,none,none
+C124539184,1056337,C124539156,"Nylon,Polyester,Viscose Rayon Conventional",none,stripe,small,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C124543274,1056338,C124543215,Cotton Better Cotton (BCI),two_tone,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C124545122,1056339,C124543217,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,opaque,woven,twill,closed,partial,brushed,medium,smooth,uniform,none,none,fuzzy,none
+C124545888,1056341,C124544990,Recycled Cotton,two_tone,stripe,medium,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,washed,none,none,none
+C124546375,1056342,C124544992,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C124547149,1056343,C124544995,"Recycled Cotton,Cotton Better Cotton (BCI)",none,geometric,small,none,matte,opaque,woven,dobby,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C124547196,1056344,C124544997,"Cotton Better Cotton (BCI),Recycled Cotton",two_tone,stripe,small,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,none,none,slight,none
+C124548881,1056346,C124548830,"Cotton Better Cotton (BCI),Recycled Cotton",none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C124549716,1056349,C124549390,"Cotton Better Cotton (BCI),Recycled Cotton",two_tone,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,irregular,washed,none,slight,none
+C124551635,1056355,C124551440,"Cotton Better Cotton (BCI),Recycled Cotton",none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C124668097,1055620,C123009743,"Recycled Polyester,Cotton USCTP Tracked US Cotton",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C124668183,1055621,C123011508,"Cotton USCTP Tracked US Cotton,Recycled Polyester",none,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,fine,smooth,uniform,none,none,slight,none
+C124681465,1056403,C124680971,"Polyester,Viscose Rayon Conventional",none,none,none,lurex_yarn_shine,high,semi_sheer,knit,jersey,small_openings,clear,flat,fine,smooth,uniform,none,none,none,none
+C124689672,1056408,C124689644,Recycled Polyester,none,floral,medium,satin_sheen,low_sheen,opaque,knit,jersey,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C124710402,1056547,C124710196,"Viscose Rayon Conventional,Nylon",none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C124710853,1056548,C124710197,"Cotton Better Cotton (BCI),Recycled Polyester",two_tone,stripe,medium,none,matte,unsure,knit,rib,small_openings,clear,ribbed,medium,smooth,irregular,none,none,none,none
+C124789801,1053901,C115571488,Nylon,none,none,none,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C124789894,1051864,C107704934,"Nylon,Spandex",none,none,none,satin_sheen,low_sheen,unsure,woven,plain_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C124883800,1056801,C124883387,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,plain_weave,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C124889306,1056803,C124889077,Cotton Regenerative RegenAgri,none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C124904628,1056804,C124889080,Nylon,none,none,none,none,low_sheen,opaque,woven,plain_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C125047007,1056817,C125046277,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C125094304,1056823,C125094219,Cotton Better Cotton (BCI),multicolor,dot,small,none,matte,semi_sheer,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C125325724,1056862,C125325488,"Cotton Better Cotton (BCI),Nylon",none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C125326184,1056863,C125326158,"Cotton Better Cotton (BCI),Nylon",none,none,none,none,matte,unsure,woven,ripstop,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C125330449,1056865,C125330423,Cotton Better Cotton (BCI),none,stripe,large,none,matte,opaque,woven,waffle,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C125335241,1056866,C125335201,Cotton Better Cotton (BCI),two_tone,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C125336930,1056868,C125335204,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,plain_weave,closed,partial,crinkled,medium,slub,irregular,washed,none,slight,none
+C125338033,1056870,C125335207,Cotton Better Cotton (BCI),two_tone,stripe,small,none,matte,opaque,woven,dobby,closed,clear,ribbed,medium,smooth,uniform,none,none,slight,none
+C125352671,1056872,C125352635,"Cotton Better Cotton (BCI),Linen Masters of Flax Fibre (MFF)",two_tone,check_plaid,medium,none,matte,semi_sheer,woven,dobby,small_openings,clear,textured,medium,smooth,uniform,none,none,none,none
+C12540568,1005959,C1119120,"Polyester,Recycled Polyester",none,none,none,none,low_sheen,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C125517763,1056889|1056888,C125517731,Cotton Better Cotton (BCI),two_tone,geometric,medium,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,washed,none,none,none
+C125525840,1056895,C125525338,Cotton Better Cotton (BCI),multicolor,dot,small,none,matte,semi_sheer,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C125601108,1055886,C123381498,"Spandex,TENCEL Modal,Wool Responsible Wool Standard (RWS) Merino",none,none,none,none,matte,unsure,unsure,unsure,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C125984834,1057017,C125984283,Cotton Better Cotton (BCI),none,geometric,small,none,matte,semi_sheer,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C125999957,1056910,C125543342,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,textured,medium,boucle_looped,uniform,none,none,slight,none
+C126002409,1057027,C126002383,"Linen Masters of Flax Fibre (MFF),Cotton Better Cotton (BCI)",heather_melange,none,none,none,matte,opaque,woven,twill,closed,clear,ribbed,medium,slub,irregular,washed,none,slight,none
+C126091077,1057032,C126091049,"Cotton Better Cotton (BCI),Nylon,Recycled Polyester",none,geometric,small,none,matte,semi_sheer,woven,dobby,small_openings,clear,textured,fine,smooth,uniform,none,none,none,none
+C126114034,1057045,C126114006,"Recycled Polyester,Viscose Rayon Conventional",none,floral,large,pearlescent,low_sheen,semi_sheer,woven,jacquard,small_openings,clear,textured,medium,smooth,irregular,none,none,none,none
+C126117252,1057052,C126114010,"Cotton Better Cotton (BCI),Linen Masters of Flax Fibre (MFF)",heather_melange,none,none,none,matte,unsure,woven,twill,closed,clear,textured,medium,smooth,uniform,none,none,slight,none
+C126117261,1057053,C126114012,"Cotton Better Cotton (BCI),Linen Masters of Flax Fibre (MFF)",heather_melange,none,none,none,matte,unsure,woven,twill,closed,clear,textured,medium,smooth,uniform,none,none,slight,none
+C126155964,1057061,C126154310,"Spandex,Nylon Recycled 6 Traceable",none,none,none,none,matte,unsure,knit,jersey,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C126155970,1057060,C126154309,"Spandex,Nylon Recycled 6 Traceable",none,none,none,none,matte,opaque,knit,jersey,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C126227096,1057062,C126227070,Recycled Polyester,none,none,none,none,low_sheen,unsure,woven,plain_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C126270540,1057076,C126270514,Viscose Rayon Conventional,none,abstract,medium,none,low_sheen,semi_sheer,woven,plain_weave,small_openings,clear,flat,fine,smooth,uniform,none,none,none,none
+C126517366,1057119,C126517340,"Cotton Better Cotton (BCI),TENCEL Lyocell",two_tone,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C126945441,1057259,C126944758,Cotton Better Cotton (BCI),two_tone,stripe,medium,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,slub,irregular,none,none,slight,none
+C126949339,1057260,C126944761,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,opaque,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C126989314,1057283,C126988763,"Cotton Better Cotton (BCI),Lycra",none,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C127010375,1057286,C127009819,Cotton Better Cotton (BCI),none,none,none,none,matte,semi_sheer,woven,plain_weave,small_openings,clear,crinkled,fine,smooth,irregular,washed,none,slight,none
+C127177128,1057294,C127176813,Nylon,none,none,none,none,low_sheen,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C127197174,1057298,C127197123,"Cotton Better Cotton (BCI),Viscose Rayon Conventional",two_tone,check_plaid,medium,none,matte,opaque,woven,dobby,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C128260231,1057416,C128259036,,two_tone,dot,small,none,matte,opaque,woven,unsure,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C129217254,1057499,C129217065,"Spandex,Nylon,Lycra",none,animal,large,none,low_sheen,opaque,knit,jersey,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C129217743,1057500,C129217067,"Polyester,Spandex",none,none,none,none,low_sheen,opaque,knit,jersey,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C129220940,1057503,C129217069,"Nylon,Polyester,Spandex",two_tone,check_plaid,small,none,matte,semi_sheer,woven,plain_weave,closed,clear,crinkled,fine,smooth,uniform,none,none,none,none
+C129221545,1057504,C129217071,"Nylon,Polyester,Spandex",two_tone,check_plaid,small,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C129221553,1057505,C129217073,"Polyester,Spandex",none,none,none,none,matte,opaque,knit,pique,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C129221568,1057506,C129217075,"Nylon,Spandex",none,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,fine,smooth,uniform,none,none,none,none
+C129303615,1056058,C123590438,"Bemberg Cupro,Nylon",none,none,none,satin_sheen,low_sheen,opaque,woven,twill,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C129303684,1053021,C111757349,"Chinese Linen,TENCEL Lyocell",heather_melange,none,none,none,matte,unsure,nonwoven,unsure,closed,not_visible,flat,fine,unsure,irregular,none,none,fuzzy,none
+C129308737,1062270|1066132|1067512,C139669849,Linen Masters of Flax Fibre (MFF),none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,slub,irregular,washed,none,slight,none
+C129393340,1057558,C129381715,"Cotton Better Cotton (BCI),Linen Masters of Flax Fibre (MFF),Spandex",none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C129689470,1057505,C129217073,"Polyester,Spandex",none,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,medium,smooth,irregular,none,none,none,none
+C129692343,1057506,C129217075,"Nylon,Spandex",none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C130067889,1054546,C119185079,"Cotton Better Cotton (BCI),Spandex",none,none,none,satin_sheen,low_sheen,opaque,coated_leather_like,unsure,closed,not_visible,flat,fine,unsure,uniform,none,none,none,none
+C130068010,1054545,C119185077,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C130068139,1057315,C127222893,"Cotton Regenerative RegenAgri,Spandex",none,none,none,satin_sheen,low_sheen,unsure,woven,plain_weave,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C130068189,1066124|1054469,C153084130,Linen Masters of Flax Fibre (MFF),heather_melange,none,none,none,matte,unsure,woven,plain_weave,closed,clear,flat,medium,slub,irregular,none,none,slight,none
+C130068871,1052366,C109841318,"Cotton USCTP Tracked US Cotton Supima,Spandex,TENCEL Modal",none,none,none,satin_sheen,low_sheen,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C130069085,1049496,C98306081,"Spandex,Polyester Recycled Traceable",none,none,none,none,matte,unsure,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C130069427,1049489,C98306067,"Nylon,Spandex",none,none,none,satin_sheen,low_sheen,unsure,woven,unsure,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C130069704,1049148|1067535|1067536|1063818|1067531|1067532|1064597|1062982|1066099|1066100,C96807535,Cotton Better Cotton (BCI),none,none,none,satin_sheen,low_sheen,unsure,unsure,unsure,closed,not_visible,flat,fine,unsure,uniform,none,none,none,none
+C130627349,1058646,C130627322,Cotton Better Cotton (BCI),none,dot,small,none,matte,semi_sheer,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C130630065,1058635,C130621922,,none,geometric,small,none,matte,semi_sheer,knit,mesh,small_openings,clear,textured,medium,smooth,uniform,none,none,none,none
+C130724882,1058706,C130724644,Nylon Conventional 66,none,none,none,none,matte,opaque,knit,unsure,small_openings,clear,textured,fine,smooth,irregular,none,none,none,none
+C130841088,1058748,C130836879,"Recycled Polyester,Spandex,Nylon",none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,fine,smooth,uniform,none,none,none,none
+C130842092,1058751|1058750,C130836888,"Spandex,Nylon Conventional 6",none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C131022436,1058898,C131022257,"Cotton Better Cotton (BCI),Recycled Nylon",none,none,none,none,matte,unsure,knit,pile_knit,closed,clear,textured,medium,nubby,uniform,none,low,slight,none
+C131511687,1049491,C98306071,"Spandex,Polyester",none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C131577151,1056329,C124445262,"Cotton Better Cotton (BCI),Spandex",none,check_plaid,small,none,matte,opaque,woven,dobby,closed,clear,crinkled,medium,smooth,irregular,none,none,none,none
+C131836573,1054921,C121199797,"Spandex,Recycled Nylon,Recycled Polyester",multicolor,stripe,small,none,matte,unsure,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C132265016,1059264,C132264891,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,dobby,closed,partial,crinkled,fine,smooth,irregular,washed,none,none,none
+C132266974,1059265,C132265943,"Recycled Cotton,Cotton USCTP Tracked US Cotton,Chinese Linen",none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,slub,irregular,washed,none,slight,none
+C132544066,1059336,C132544016,Cotton Better Cotton (BCI),none,check_plaid,medium,none,matte,semi_sheer,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C133357722,1061041,C133356640,Cotton Better Cotton (BCI),two_tone,stripe,medium,none,matte,opaque,woven,plain_weave,closed,clear,crinkled,medium,smooth,irregular,washed,none,none,none
+C133360038,1061044,C133356642,"Recycled Polyester,Nylon,Viscose Rayon Conventional",none,check_plaid,medium,none,low_sheen,semi_sheer,woven,dobby,small_openings,clear,textured,medium,smooth,uniform,none,none,none,none
+C133361550,1061045,C133356644,"Cotton Better Cotton (BCI),Polyester",none,check_plaid,medium,none,matte,unsure,woven,plain_weave,closed,clear,crinkled,medium,smooth,irregular,none,none,none,none
+C133362542,1061046|1071001,C133356646,"Cotton Better Cotton (BCI),Polyester,Spandex",none,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,crinkled,fine,smooth,irregular,none,none,none,none
+C134133713,1061184,C134133541,"Cotton Traceable Better Cotton (BCI),Polyester",none,check_plaid,small,none,matte,unsure,woven,plain_weave,small_openings,clear,textured,fine,smooth,irregular,none,none,none,none
+C134134207,1061271,C134482533,Cotton Better Cotton (BCI),none,geometric,small,none,matte,opaque,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C134134208,1061185,C134133543,Cotton Better Cotton (BCI),two_tone,geometric,small,none,matte,opaque,woven,dobby,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C134145692,1061192,C134145667,Lyocell,none,none,none,satin_sheen,low_sheen,unsure,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C134246033,1061208,C134246008,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,dobby,closed,clear,textured,medium,smooth,uniform,washed,none,none,none
+C134253151,1061210,C134252639,Cotton Better Cotton (BCI),none,check_plaid,medium,none,matte,unsure,woven,plain_weave,closed,clear,crinkled,medium,smooth,irregular,none,none,none,none
+C134256612,1061211,C134253173,"Cotton Better Cotton (BCI),Viscose Rayon Conventional",multicolor,camo,large,none,matte,opaque,woven,plain_weave,closed,partial,crinkled,medium,smooth,irregular,none,none,none,none
+C134257013,1061214,C134256670,Cotton Better Cotton (BCI),none,check_plaid,medium,none,matte,semi_sheer,woven,plain_weave,small_openings,clear,flat,fine,smooth,uniform,none,none,none,none
+C134257507,1061215,C134256673,Cotton Better Cotton (BCI),two_tone,stripe,medium,none,matte,opaque,woven,plain_weave,closed,clear,crinkled,medium,smooth,irregular,none,none,none,none
+C134361890,1061216,C134361863,"Nylon,Cotton Better Cotton (BCI)",none,stripe,medium,none,matte,semi_sheer,woven,dobby,small_openings,clear,textured,medium,smooth,irregular,none,none,none,none
+C134362455,1061217,C134362407,"Cotton Better Cotton (BCI),Polyester",none,check_plaid,small,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C134362481,1061218,C134362409,Cotton Better Cotton (BCI),two_tone,stripe,medium,none,matte,unsure,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C134431372,1061261|282741,C134477481,"Spandex,Recycled Nylon",none,none,none,none,low_sheen,opaque,unsure,unsure,closed,not_visible,flat,fine,unsure,uniform,none,none,none,none
+C134488470,1061276,C134487778,,none,none,none,none,matte,unsure,knit,pique,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C134488471,1061277,C134487779,,none,geometric,small,none,matte,semi_sheer,knit,mesh,small_openings,clear,textured,fine,smooth,uniform,none,none,none,none
+C134488472,1061278,C134487780,,none,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,fine,smooth,uniform,none,none,none,none
+C134493840,1061284,C134493815,"Cotton Better Cotton (BCI),Viscose Rayon Conventional",two_tone,check_plaid,medium,none,matte,unsure,woven,plain_weave,small_openings,clear,flat,medium,smooth,uniform,none,none,none,none
+C134498585,1061288,C134493818,Cotton Better Cotton (BCI),none,stripe,medium,none,matte,unsure,woven,dobby,closed,clear,textured,medium,slub,uniform,none,none,slight,none
+C134502984,1061204,C134236245,TENCEL Lyocell,none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,irregular,washed,none,none,none
+C134577482,1061294,C134576678,Cotton Better Cotton (BCI),two_tone,stripe,medium,none,matte,opaque,woven,dobby,closed,clear,textured,medium,slub,irregular,none,none,slight,none
+C134672696,1061327,C134672667,Cotton Better Cotton (BCI),none,stripe,small,none,matte,semi_sheer,woven,dobby,closed,clear,textured,fine,smooth,irregular,none,none,none,embroidery
+C134672896,1056297,C124238786,Cotton Better Cotton (BCI),none,check_plaid,large,none,matte,unsure,woven,dobby,small_openings,clear,textured,medium,slub,irregular,none,none,slight,none
+C134709740,1061361,C134709699,,multicolor,stripe,medium,none,matte,opaque,woven,jacquard,closed,clear,textured,coarse,smooth,irregular,none,medium,fuzzy,none
+C134709741,1061362,C134709702,Cotton Better Cotton (BCI),none,geometric,small,none,matte,opaque,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C134709742,1061367,C134709705,,none,none,none,none,matte,semi_sheer,woven,plain_weave,closed,partial,crinkled,fine,smooth,irregular,none,none,none,none
+C134709743,1061368,C134709709,,multicolor,stripe,medium,none,matte,opaque,woven,dobby,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C134709744,1061369,C134709712,,two_tone,stripe,medium,none,matte,semi_sheer,woven,dobby,small_openings,clear,textured,medium,smooth,irregular,none,none,slight,none
+C134727832,1061381,C134727572,"Cotton Better Cotton (BCI),Recycled Polyester",two_tone,stripe,medium,none,matte,opaque,woven,plain_weave,closed,clear,crinkled,medium,smooth,irregular,none,none,none,none
+C134807108,1061408,C134806879,"Polyester Recycled Traceable,Spandex",none,none,none,none,matte,unsure,woven,plain_weave,closed,clear,crinkled,medium,smooth,irregular,none,none,none,none
+C135120338,1061456,C135120050,"Cotton Better Cotton (BCI),Polyester",multicolor,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C135121792,1061457,C135121757,"Cotton Better Cotton (BCI),Chinese Linen",heather_melange,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,medium,slub,uniform,none,none,slight,none
+C135132593,1061461,C135131962,"Nylon,Recycled Polyester,Lenzing Ecovero",multicolor,check_plaid,medium,none,matte,semi_sheer,woven,plain_weave,small_openings,clear,flat,medium,smooth,uniform,none,none,none,none
+C135138333,1061462,C135138308,"Cotton Better Cotton (BCI),Recycled Polyester",none,stripe,medium,none,matte,opaque,woven,plain_weave,closed,clear,crinkled,medium,smooth,irregular,none,none,none,none
+C135139562,1061463,C135139531,"Cotton Better Cotton (BCI),Recycled Cotton",two_tone,geometric,medium,none,matte,opaque,woven,quilted,closed,clear,quilted,medium,smooth,irregular,washed,none,slight,none
+C135365869,1061503,C135365841,"Nylon,Polyester,Spandex,Viscose Rayon Conventional",none,none,none,none,matte,opaque,knit,interlock,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C135495594,1061539,C135495567,"Cotton Better Cotton (BCI),Spandex",multicolor,stripe,medium,none,matte,semi_sheer,woven,plain_weave,closed,clear,crinkled,medium,smooth,irregular,none,none,none,none
+C135502968,1061542,C135502941,Cotton Better Cotton (BCI),none,stripe,medium,none,matte,opaque,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C135681547,1061552,C135681520,Recycled Polyester,none,none,none,none,matte,unsure,knit,waffle,small_openings,clear,textured,medium,smooth,uniform,none,none,slight,none
+C135684688,1061565,C135684004,Cotton Better Cotton (BCI),two_tone,stripe,small,none,matte,opaque,woven,dobby,small_openings,clear,textured,medium,slub,irregular,washed,none,slight,none
+C135898811,1061628,C135898786,,none,check_plaid,medium,none,matte,sheer,woven,dobby,closed,clear,crinkled,fine,smooth,irregular,none,none,none,none
+C135898812,1061639,C135898789,Cotton Better Cotton (BCI),none,check_plaid,small,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C136359890,1061220,C134363556,"Cotton Better Cotton (BCI),Polyester,Spandex",none,stripe,medium,none,matte,opaque,knit,jacquard,closed,clear,textured,medium,smooth,uniform,none,none,slight,none
+C136387760,1061702,C136387724,Cotton Better Cotton (BCI),none,geometric,small,none,matte,unsure,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C136723344,1061789,C136723077,"Spandex,Polyester",none,none,none,none,matte,unsure,knit,unsure,closed,partial,crinkled,medium,smooth,irregular,none,none,slight,none
+C136723346,1061788,C136723076,"Cotton Traceable Better Cotton (BCI),Spandex,Nylon",none,none,none,none,matte,unsure,knit,unsure,closed,partial,crinkled,medium,smooth,irregular,none,none,slight,none
+C136808191,1061792,C136808165,,two_tone,check_plaid,small,none,matte,sheer,woven,plain_weave,small_openings,clear,flat,fine,smooth,uniform,none,none,none,none
+C138621952,1062176,C138621920,Recycled Polyester,none,none,none,none,low_sheen,opaque,coated_leather_like,not_visible,closed,not_visible,textured,fine,unsure,uniform,none,none,none,none
+C139951995,1062334,C139949984,Polyester,none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C139954111,1062336,C139953961,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,coarse,smooth,uniform,none,none,slight,none
+C139954112,1062335,C139953960,"Cotton Better Cotton (BCI),Recycled Polyester",heather_melange,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C140125348,1062364,C140125158,"Cotton Better Cotton (BCI),Recycled Cotton",two_tone,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,irregular,washed,none,slight,none
+C140288699,1062376,C140288073,"Nylon,Recycled Polyester,Wool,Alpaca Hair",none,geometric,medium,none,matte,opaque,knit,jacquard,closed,clear,textured,medium,smooth,uniform,none,none,fuzzy,none
+C140514627,1062413,C140511329,"Cotton Better Cotton (BCI),Nylon",none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C140599178,1062438,C140599140,Recycled Polyester,heather_melange,none,none,none,matte,opaque,knit,pile_knit,closed,not_visible,textured,coarse,unsure,uniform,none,high,fuzzy,none
+C141418386,1062631,C141418336,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,twill,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C141492292,1062643,C141492265,"Cotton Better Cotton (BCI),Nylon",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C141493146,1062644,C141493119,"Nylon,Viscose Rayon Conventional,Recycled Polyester",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C141508746,1062648,C141508721,,heather_melange,none,none,none,matte,unsure,knit,jersey,closed,clear,textured,coarse,nubby,irregular,none,none,hairy,none
+C141540369,1062657,C141540019,"Recycled Polyester,Cotton Better Cotton (BCI),Nylon,Alpaca Hair",heather_melange,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,medium,unsure,uniform,none,none,hairy,none
+C141540370,1062653,C141540015,"Cotton Better Cotton (BCI),Nylon,Recycled Polyester",heather_melange,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,medium,nubby,irregular,none,none,slight,none
+C141540381,1062655,C141540017,"Cotton Better Cotton (BCI),Recycled Polyester",none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,coarse,unsure,uniform,none,none,fuzzy,none
+C141540382,1062654,C141540016,"Cotton Better Cotton (BCI),Recycled Polyester",none,none,none,none,matte,opaque,knit,interlock,closed,clear,textured,medium,chenille,uniform,none,low,fuzzy,none
+C141540383,1062656,C141540018,"Recycled Polyester,Wool,Alpaca Hair",heather_melange,none,none,none,matte,opaque,knit,jersey,closed,clear,textured,coarse,slub,irregular,none,none,fuzzy,none
+C142169646,1063020,C142168576,"Cotton Better Cotton (BCI),Viscose Rayon Conventional",multicolor,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C142263016,1063047,C142261287,,none,none,none,none,matte,unsure,knit,unsure,closed,partial,textured,coarse,unsure,uniform,none,none,hairy,none
+C142282744,1063053,C142282488,"Cotton Better Cotton (BCI),Nylon,Wool",none,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,slight,none
+C142282745,1063052,C142282487,"Cotton Better Cotton (BCI),Nylon,Wool",heather_melange,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,slight,none
+C142407278,1063094,C142389861,Recycled Polyester,none,none,none,none,low_sheen,opaque,coated_leather_like,unsure,closed,not_visible,embossed,medium,unsure,uniform,none,none,none,none
+C142409036,1063095,C142408779,Recycled Polyester,none,none,none,none,low_sheen,opaque,knit,pile_knit,closed,not_visible,textured,coarse,boucle_looped,irregular,none,high,hairy,none
+C142409324,1063096,C142409082,Recycled Polyester,none,none,none,none,matte,opaque,knit,pile_knit,closed,not_visible,textured,coarse,boucle_looped,irregular,none,high,fuzzy,none
+C142559747,1063110,C142559722,"Cotton Better Cotton (BCI),Spandex",multicolor,check_plaid,large,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C142559794,1063112,C142559765,"Nylon,Viscose Rayon Conventional,Polyester",two_tone,stripe,small,satin_sheen,low_sheen,semi_sheer,woven,dobby,closed,clear,flat,fine,smooth,irregular,none,none,none,none
+C142560868,1063114,C142559769,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,pile_woven,closed,clear,ribbed,medium,smooth,uniform,none,medium,fuzzy,none
+C142569888,1063116,C142569859,"Cotton Better Cotton (BCI),Nylon",none,none,none,none,matte,opaque,woven,plain_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,slight,none
+C142570543,1063117,C142569861,"Polyester,TENCEL Modal",none,none,none,none,low_sheen,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C142570824,1063118,C142569863,"Cotton Better Cotton (BCI),Spandex",none,none,none,none,low_sheen,opaque,woven,pile_woven,closed,clear,ribbed,medium,smooth,uniform,none,medium,fuzzy,none
+C142587210,1063120,C142569865,Lenzing Ecovero,none,floral,small,none,matte,opaque,woven,plain_weave,closed,partial,textured,fine,smooth,irregular,none,none,none,none
+C142587934,1063122,C142587300,Cotton Better Cotton (BCI),none,geometric,small,none,matte,semi_sheer,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C142587960,1063121,C142587228,Lenzing Ecovero,none,dot,small,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C142589953,1063125,C142589961,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,pile_woven,closed,clear,ribbed,medium,smooth,uniform,none,medium,slight,none
+C142589954,1063124,C142589925,,none,check_plaid,medium,none,matte,unsure,woven,dobby,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C142845506,1063213|1063214,C142845225,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,washed,none,none,none
+C142961676,1063263,C142961649,Cotton Better Cotton (BCI),none,geometric,small,none,matte,unsure,woven,ripstop,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C142994907,1063274,C142994271,Recycled Polyester,none,none,none,none,matte,opaque,knit,pile_knit,closed,not_visible,textured,coarse,boucle_looped,uniform,none,high,fuzzy,none
+C142995631,1063275,C142993988,"Recycled Cotton,Cotton USCTP Tracked US Cotton",two_tone,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,washed,none,none,none
+C142995663,1063271,C142984618,"Recycled Cotton,Cotton USCTP Tracked US Cotton",two_tone,none,none,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,washed,none,slight,none
+C142995664,1063276,C142961651,"Recycled Cotton,Lycra,Cotton USCTP Tracked US Cotton",two_tone,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,washed,none,slight,none
+C143022561,1063283,C143015934,"Cotton Better Cotton (BCI),Polyester",none,none,none,none,matte,opaque,knit,pique,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C143147061,1063299,C143146725,Cotton Better Cotton (BCI),two_tone,stripe,medium,none,matte,opaque,knit,terry_loop,closed,clear,textured,coarse,nubby,uniform,none,medium,fuzzy,none
+C143172009,1063301,C143171530,"Recycled Cotton,Cotton Better Cotton (BCI)",two_tone,stripe,small,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,washed,none,none,none
+C143186112,1063310,C143182662,Leather,none,none,none,none,matte,opaque,coated_leather_like,unsure,closed,not_visible,brushed,fine,unsure,uniform,none,low,fuzzy,none
+C143186132,1063311,C143182663,,none,none,none,none,matte,opaque,coated_leather_like,not_visible,closed,not_visible,brushed,fine,unsure,uniform,none,low,fuzzy,none
+C143186150,1063312,C143182664,,none,none,none,satin_sheen,low_sheen,opaque,woven,pile_woven,closed,clear,ribbed,medium,smooth,uniform,none,medium,fuzzy,none
+C143186151,1063313,C143182665,,none,none,none,none,matte,opaque,coated_leather_like,unsure,closed,not_visible,textured,fine,unsure,uniform,none,low,fuzzy,none
+C143394979,1063383,C143386237,Polyester,none,none,none,satin_sheen,low_sheen,opaque,woven,satin_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C143520552,1063422,C143520518,"Polyester,Spandex",two_tone,none,none,none,matte,opaque,knit,pile_knit,closed,partial,textured,coarse,nubby,uniform,none,high,fuzzy,none
+C143653212,1063453,C143652981,Cotton Better Cotton (BCI),none,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C143789256,1063508,C143788695,"Cotton Better Cotton (BCI),Nylon,Acrylic",heather_melange,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,medium,nubby,uniform,none,none,slight,none
+C143816640,1063540,C143815974,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C144322967,1063777,C144322447,Cotton Better Cotton (BCI),none,none,none,none,matte,semi_sheer,knit,jersey,closed,clear,textured,fine,slub,irregular,none,none,slight,none
+C144609599,1063846,C144609574,"Others,Recycled Polyester,Recycled Wool",none,animal,large,none,matte,opaque,woven,unsure,closed,not_visible,brushed,medium,unsure,uniform,none,low,fuzzy,none
+C145034363,1063918,C145033573,Polyester,none,none,none,none,matte,opaque,woven,twill,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C145075190,1063925,C145075164,Cotton Better Cotton (BCI),none,check_plaid,medium,none,matte,unsure,woven,plain_weave,small_openings,clear,flat,fine,smooth,uniform,none,none,none,none
+C146718525,1064456,C146718483,Polyester,none,none,none,none,matte,opaque,knit,pile_knit,closed,not_visible,textured,medium,unsure,uniform,none,medium,fuzzy,none
+C146852444,1064479,C146851895,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C147211373,1064563,C147210880,"Polyester,Spandex",none,geometric,small,none,matte,semi_sheer,knit,mesh,small_openings,clear,flat,fine,smooth,uniform,none,none,none,none
+C147568332,1062975,C142079024,Recycled Polyester,two_tone,check_plaid,small,none,matte,opaque,woven,twill,closed,clear,textured,medium,slub,uniform,none,none,fuzzy,none
+C147962112,1063866,C144712714,"Polyester,Wool",heather_melange,stripe,small,none,matte,opaque,woven,twill,closed,partial,textured,medium,nubby,irregular,none,none,fuzzy,none
+C147962117,1063866,C144712714,"Polyester,Wool",heather_melange,stripe,medium,none,matte,opaque,woven,plain_weave,closed,clear,textured,medium,slub,uniform,none,none,slight,none
+C148086399,1064674,C148085798,"Cotton Better Cotton (BCI),Nylon,Acrylic,Spandex",none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C148086400,1064676,C148085800,,none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C148087501,1064675,C148085799,,none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C148240887,1064623,C147774247,"Polyester,Wool,Others",heather_melange,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,textured,coarse,nubby,irregular,none,none,fuzzy,none
+C148558932,1064739,C148558904,"Cotton Better Cotton (BCI),Nylon,Acrylic",heather_melange,stripe,small,none,matte,unsure,knit,jersey,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C149270875,1065168,C149270848,Polyester,none,none,none,satin_sheen,low_sheen,opaque,woven,satin_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C149375703,1065187,C149375177,"Recycled Polyester,Responsible Wool Standard (RWS) Wool,Nylon",none,geometric,medium,none,matte,unsure,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,slight,none
+C149375710,1065186,C149375176,,none,none,none,none,matte,semi_sheer,knit,jersey,small_openings,clear,flat,fine,smooth,uniform,none,none,fuzzy,none
+C149375784,1065185,C149375175,"Cotton Better Cotton (BCI),Recycled Polyester",none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,slight,none
+C149389021,1065191,C149387173,"Viscose Rayon Conventional,Polyester",two_tone,stripe,medium,satin_sheen,medium,opaque,woven,dobby,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C149554089,1065303,C149553044,Polyester,none,none,none,none,matte,opaque,knit,pile_knit,closed,not_visible,textured,coarse,nubby,irregular,none,high,fuzzy,none
+C149801103,1065364,C149800531,"Recycled Polyester,Responsible Wool Standard (RWS) Wool,Nylon",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C149801110,1065363,C149800530,"Acetate,Wool,Others",none,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,fine,smooth,uniform,none,none,slight,none
+C150496547,1065628,C150496416,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,none,none,slight,none
+C150538541,1065681,C150516775,Cotton Better Cotton (BCI),heather_melange,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,nubby,irregular,none,none,slight,none
+C150734317,1065707,C150734094,"Responsible Wool Standard (RWS) Wool,Others,Recycled Polyester",heather_melange,none,none,none,matte,opaque,knit,pile_knit,closed,not_visible,textured,fine,boucle_looped,uniform,none,low,fuzzy,none
+C150734340,1065708,C150734095,,heather_melange,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C150734341,1065709,C150734096,,none,none,none,none,matte,opaque,knit,unsure,closed,not_visible,brushed,fine,unsure,uniform,none,low,fuzzy,none
+C151453337,1065797,C151451808,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C151549047,1065805,C151548071,Polyurethane,none,none,none,textured_shine,low_sheen,opaque,coated_leather_like,unsure,closed,not_visible,textured,medium,unsure,irregular,distressed,none,none,none
+C151549085,1065806,C151548073,Polyurethane,none,none,none,none,low_sheen,opaque,coated_leather_like,unsure,closed,not_visible,textured,fine,unsure,uniform,none,none,none,none
+C151679379,1065825,C151679354,Polyester,none,animal,large,none,low_sheen,opaque,coated_leather_like,unsure,closed,not_visible,embossed,coarse,unsure,uniform,none,none,none,none
+C151683177,1065827,C151683150,Cotton Better Cotton (BCI),two_tone,none,none,none,matte,unsure,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C151691163,1065833,C151679356,Polyurethane,none,none,none,none,low_sheen,opaque,coated_leather_like,pile_knit,closed,not_visible,textured,medium,unsure,uniform,none,medium,fuzzy,none
+C151692521,1065836,C151679358,"Cotton Better Cotton (BCI),Viscose Rayon Conventional",none,none,none,satin_sheen,low_sheen,opaque,woven,pile_woven,closed,clear,ribbed,medium,smooth,uniform,none,medium,fuzzy,none
+C151708013,1065849,C151706978,"Cashmere Good Cashmere Standard (GCS),Wool",none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C151848587,1065860,C151727831,,none,none,none,none,low_sheen,opaque,coated_leather_like,unsure,closed,not_visible,textured,medium,unsure,irregular,distressed,none,none,none
+C151865517,1065895,C151864644,Nylon,none,none,none,none,low_sheen,unsure,woven,plain_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C151878915,1065898,C151878302,"Polyester,Viscose Rayon Conventional,Spandex",multicolor,geometric,small,none,matte,opaque,woven,jacquard,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C151878932,1065899,C151878304,"Cotton Better Cotton (BCI),Polyester",none,check_plaid,medium,none,matte,opaque,woven,unsure,closed,not_visible,brushed,medium,unsure,uniform,none,none,fuzzy,none
+C151881742,1065901,C151878306,"Cotton Better Cotton (BCI),Polyester",none,none,none,none,matte,opaque,knit,jersey,closed,clear,textured,medium,smooth,uniform,none,medium,fuzzy,none
+C151883076,1065902,C151878308,"Cotton Better Cotton (BCI),Recycled Polyester,Spandex",none,geometric,small,none,matte,opaque,knit,pique,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C151883855,1065904,C151878310,Polyester,none,none,none,none,matte,opaque,knit,pile_knit,closed,not_visible,textured,medium,unsure,uniform,none,medium,fuzzy,none
+C151884884,1065905,C151878312,Recycled Polyester,none,none,none,none,matte,unsure,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C151886408,1065906,C151878314,"Nylon,Spandex",none,none,none,none,low_sheen,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C151890002,1065908,C151889345,Polyester,none,none,none,none,matte,opaque,knit,pile_knit,closed,clear,textured,medium,smooth,uniform,none,medium,fuzzy,none
+C151890085,1065909,C151889347,Recycled Polyester,heather_melange,none,none,none,matte,opaque,knit,brushed_fleece,closed,not_visible,brushed,fine,unsure,uniform,none,low,fuzzy,none
+C152142368,1065967,C152141231,Polyester,none,geometric,large,none,matte,opaque,knit,pile_knit,closed,not_visible,textured,medium,unsure,uniform,none,high,fuzzy,none
+C152142504,1065968,C152141233,Recycled Polyester,none,none,none,none,matte,opaque,knit,not_visible,closed,not_visible,brushed,fine,unsure,uniform,none,medium,fuzzy,none
+C152146737,1068825|1065798,C163939683,"Polyester,Viscose Rayon Conventional",heather_melange,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C152147362,1065970,C152146705,Polyester,none,none,none,none,low_sheen,opaque,woven,pile_woven,closed,clear,ribbed,medium,unsure,uniform,none,medium,fuzzy,none
+C152166545,1064559,C147121049,Polyester,none,stripe,small,none,low_sheen,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C152168167,1065971,C152146707,"Cotton Better Cotton (BCI),Polyester",none,none,none,none,matte,opaque,nonwoven,unsure,closed,not_visible,textured,fine,unsure,uniform,none,none,fuzzy,none
+C152168168,1065986,C152146709,Polyester,none,none,none,none,matte,opaque,nonwoven,unsure,closed,not_visible,textured,fine,unsure,uniform,none,low,fuzzy,none
+C152168604,1065988,C152168179,Recycled Polyester,none,check_plaid,medium,none,matte,opaque,woven,unsure,closed,not_visible,brushed,medium,unsure,irregular,none,medium,hairy,none
+C152169512,1064560,C147121050,"Cotton Better Cotton (BCI),Polyester",none,none,none,none,matte,opaque,woven,twill,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C152179584,1065985,C152165328,Polyester,none,none,none,metallic,high,opaque,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C152180119,1066201|1065947,C153388816,Polyester,multicolor,none,none,metallic|sparkle,high,semi_sheer,knit,mesh,small_openings,partial,textured,medium,smooth,irregular,none,none,none,sequins
+C152180120,1065950,C152024980,Polyester,multicolor,none,none,iridescent|sparkle,high,semi_sheer,knit,mesh,open,clear,textured,coarse,unsure,uniform,none,none,none,sequins
+C152180121,1065984,C152165326,"Polyester,Spandex",none,floral,medium,none,low_sheen,sheer,unsure,lace,open,clear,textured,medium,smooth,uniform,none,none,none,none
+C152180122,1066200|1065935,C153387301,"Spandex,Polyester",none,none,none,metallic,high,opaque,woven,unsure,closed,not_visible,textured,medium,smooth,uniform,none,none,none,none
+C152180124,1065973,C152150252,"Polyester,Spandex",none,floral,medium,none,matte,sheer,knit,lace,open,clear,textured,medium,smooth,uniform,none,none,none,none
+C152180404,1066369|1065936,C153813133,Recycled Polyester,none,none,none,satin_sheen,low_sheen,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C152180415,1065989,C152165330,"Spandex,Nylon,Cotton Better Cotton (BCI)",none,floral,medium,none,matte,sheer,knit,lace,open,clear,textured,medium,smooth,irregular,none,none,none,none
+C152180446,1065972,C152150250,"Nylon,Spandex",none,floral,medium,none,matte,sheer,unsure,lace,open,clear,textured,medium,smooth,irregular,none,none,none,none
+C152187689,1065946,C152015698,"Recycled Polyester,Viscose Rayon Conventional,Spandex",none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,slight,none
+C152188219,1065937,C152018287,Polyester,none,stripe,medium,none,low_sheen,sheer,knit,mesh,open,clear,textured,medium,smooth,uniform,none,none,none,none
+C152188240,1065940,C152018293,"Polyester,Spandex",none,none,none,sparkle,high,opaque,woven,plain_weave,closed,clear,textured,medium,smooth,irregular,none,none,none,sequins|fringe
+C152188431,1065952,C152081892,"Polyester,Spandex",two_tone,stripe,small,metallic|sparkle,high,unsure,unsure,unsure,small_openings,partial,textured,medium,unsure,uniform,none,none,none,sequins
+C152198651,1065996,C152168181,"Polyester Recycled Traceable,Wool,Spandex",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C152294868,1066011,C152289704,"Polyester,Spandex,TENCEL Lyocell",none,none,none,satin_sheen,low_sheen,unsure,knit,jersey,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C152296770,1066013,C152296703,Polyester,none,none,none,none,matte,opaque,knit,terry_loop,closed,clear,textured,fine,smooth,uniform,none,low,fuzzy,none
+C152297252,1066015,C152296705,"Polyester,Cotton Better Cotton (BCI)",none,none,none,none,matte,opaque,knit,jersey,closed,clear,textured,medium,smooth,uniform,none,medium,fuzzy,none
+C152301975,1066018,C152301944,Recycled Polyester,none,none,none,none,matte,opaque,knit,brushed_fleece,closed,not_visible,brushed,fine,unsure,uniform,none,low,fuzzy,none
+C152393711,1066030,C152393584,Polyester,none,camo,large,none,low_sheen,opaque,woven,ripstop,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C152394122,1066031,C152393960,Recycled Polyester,two_tone,check_plaid,small,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C152673777,1066202|1065955,C153388818,Polyester,multicolor,none,none,sparkle|iridescent,high,semi_sheer,knit,mesh,small_openings,clear,textured,medium,unsure,uniform,none,none,none,sequins
+C152674183,1065954,C152082782,"Polyester,Spandex",none,floral,medium,none,matte,semi_sheer,knit,mesh,small_openings,clear,textured,medium,smooth,irregular,none,low,fuzzy,none
+C152674402,1065930,C152018275,"Polyester,Spandex",none,none,none,none,matte,unsure,woven,plain_weave,closed,partial,textured,fine,slub,irregular,none,none,slight,none
+C152674403,1065942,C152021895,Polyester,none,abstract,small,sparkle|metallic,high,unsure,knit,mesh,open,clear,textured,coarse,nubby,irregular,none,none,hairy,sequins
+C152674407,1065974,C152150254,"Cotton Better Cotton (BCI),Spandex,Recycled Polyester",none,none,none,none,matte,unsure,knit,unsure,closed,not_visible,flat,fine,smooth,uniform,none,none,slight,none
+C152674408,1065931,C152018276,"Polyester,Spandex",heather_melange,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,slight,none
+C152674410,1065932,C152018279,Polyester,two_tone,none,none,lurex_yarn_shine|metallic,high,unsure,knit,rib,closed,clear,ribbed,fine,smooth,uniform,none,none,none,none
+C152674411,1065934,C152018281,"Polyester,Spandex",none,none,none,lurex_yarn_shine|sparkle,high,unsure,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C152674413,1065949,C152024979,Polyester,none,geometric,small,metallic,high,sheer,knit,mesh,open,partial,textured,medium,unsure,uniform,none,none,none,sequins
+C152674419,1065953,C152082779,"Polyester,Spandex",none,floral,medium,satin_sheen,medium,opaque,knit,pile_knit,closed,not_visible,textured,fine,smooth,irregular,none,low,fuzzy,none
+C152674508,1065995,C152178644,"Cotton Better Cotton (BCI),Nylon",none,floral,medium,none,matte,sheer,knit,lace,open,clear,textured,medium,smooth,irregular,none,none,none,none
+C152831054,1064558,C147121048,Polyester,none,none,none,none,matte,unsure,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C153067905,1066116,C153067500,,ombre_gradient,stripe,large,none,matte,opaque,knit,jersey,closed,clear,flat,medium,slub,uniform,none,none,fuzzy,none
+C153082688,1066103,C152969314,"Spandex,Nylon",none,floral,medium,none,low_sheen,sheer,knit,lace,open,clear,textured,medium,smooth,irregular,none,none,none,none
+C153082689,1066103,C152969314,"Spandex,Nylon",none,floral,medium,none,low_sheen,sheer,knit,lace,open,clear,textured,medium,smooth,irregular,none,none,none,none
+C153084210,1066103,C152969314,"Spandex,Nylon",none,floral,medium,none,low_sheen,sheer,knit,lace,open,clear,textured,medium,smooth,irregular,none,none,none,none
+C153084211,1066104,C152969315,"Spandex,Nylon",none,floral,medium,satin_sheen,low_sheen,sheer,knit,lace,open,clear,textured,medium,smooth,irregular,none,none,none,none
+C153349311,1065890,C151859639,"Cotton Better Cotton (BCI),Nylon,Polyester",heather_melange,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,medium,nubby,irregular,none,none,slight,none
+C153349327,1065894,C151859646,"Recycled Polyester,Nylon,Merino Wool,Spandex",none,none,none,none,matte,unsure,knit,unsure,closed,not_visible,textured,coarse,unsure,uniform,none,medium,hairy,none
+C153349377,1065892,C151859643,"Recycled Polyester,Nylon,Wool,Spandex",heather_melange,none,none,none,matte,opaque,knit,jersey,closed,partial,brushed,coarse,unsure,irregular,none,medium,hairy,none
+C153349810,1066069,C152814412,"Recycled Polyester,Nylon,Spandex",heather_melange,none,none,none,matte,unsure,knit,jersey,closed,partial,brushed,medium,unsure,uniform,none,medium,hairy,none
+C153359341,1066190,C153359285,,none,none,none,none,matte,opaque,knit,pile_knit,closed,not_visible,textured,coarse,unsure,uniform,none,high,fuzzy,none
+C153366349,1066194,C153366322,Polyester,two_tone,none,none,none,matte,opaque,coated_leather_like,unsure,closed,not_visible,textured,medium,unsure,irregular,distressed,high,fuzzy,none
+C153400470,1066102,C152969312,"Cotton Better Cotton (BCI),Nylon",none,floral,medium,none,low_sheen,sheer,knit,lace,open,clear,textured,medium,smooth,irregular,none,none,none,none
+C153936942,1054443,C118314947,"Spandex,Recycled Polyester,Nylon",two_tone,floral,medium,none,low_sheen,semi_sheer,knit,unsure,small_openings,clear,textured,medium,smooth,irregular,none,low,fuzzy,none
+C153942381,1066396,C153942327,"TENCEL Modal,Polyester",none,none,none,none,matte,opaque,woven,plain_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C154706134,1066985,C154706027,Polyester Recycled Traceable,none,none,none,none,low_sheen,opaque,woven,ripstop,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C155598955,1067077,C155598914,,none,none,none,none,low_sheen,unsure,woven,twill,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C155674200,1067080,C155674153,Recycled Polyester,none,none,none,none,low_sheen,opaque,coated_leather_like,unsure,closed,not_visible,textured,medium,unsure,uniform,distressed,none,none,none
+C155674847,1067081,C155674813,Polyurethane,none,none,none,none,low_sheen,opaque,coated_leather_like,unsure,closed,not_visible,textured,fine,unsure,irregular,distressed,none,none,none
+C155676080,1067082,C155674815,Polyester,none,none,none,metallic|foil,high,opaque,laminated_film,not_visible,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C156477971,1067205,C156354614,"Polyester,Spandex",none,floral,medium,metallic|high_gloss,high,sheer,knit,mesh,open,clear,textured,medium,smooth,irregular,none,none,none,sequins
+C156938767,1067247,C156937630,"Metallic,Nylon,Polyester,Viscose Rayon Conventional",none,none,none,sparkle,low_sheen,unsure,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,slight,none
+C157195292,1067265,C157195262,Polyurethane,none,none,none,none,low_sheen,opaque,coated_leather_like,unsure,closed,clear,textured,medium,unsure,irregular,distressed,none,none,none
+C158234118,1067585,C158233211,Polyester,none,none,none,none,low_sheen,opaque,knit,pile_knit,closed,not_visible,textured,coarse,smooth,irregular,none,high,hairy,none
+C158241571,1067591,C158241544,"Cotton Better Cotton (BCI),Nylon,Acrylic",heather_melange,none,none,none,matte,opaque,knit,jersey,closed,partial,flat,medium,unsure,uniform,none,none,slight,none
+C158512442,1067658,C158511808,Polyester,none,dot,medium,none,low_sheen,sheer,knit,mesh,open,clear,flat,medium,smooth,uniform,none,none,none,none
+C158518096,1067661,C158518009,"Cotton Better Cotton (BCI),Nylon",none,none,none,satin_sheen,low_sheen,opaque,woven,plain_weave,closed,clear,crinkled,fine,smooth,irregular,washed,none,none,none
+C158726870,1067720,C158725828,,none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,unsure,uniform,none,high,hairy,none
+C158741087,1067744,C158741004,,heather_melange,stripe,small,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,slight,none
+C158800122,1067755,C158799098,,two_tone,stripe,small,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C158977584,1067721,C158725830,,none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,fuzzy,none
+C159047767,1067684,C158628605,Cotton Better Cotton (BCI),none,geometric,large,none,matte,opaque,knit,jacquard,closed,clear,textured,coarse,smooth,irregular,none,none,none,none
+C159097253,1067696,C158658961,"Cotton Better Cotton (BCI),Polyester",none,geometric,small,none,matte,unsure,knit,rib,small_openings,clear,ribbed,fine,smooth,uniform,none,none,slight,none
+C159097786,1067887,C159098604,"Spandex,Polyester",none,floral,medium,none,low_sheen,sheer,knit,lace,open,clear,textured,medium,smooth,irregular,none,none,none,none
+C159103963,1067855,C158985205,"Cotton Better Cotton (BCI),Recycled Polyester",none,geometric,small,none,matte,unsure,knit,pique,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C159103966,1067857,C158985207,"Cotton Better Cotton (BCI),Spandex",heather_melange,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,slight,none
+C159103967,1067689,C158658954,"Polyester,Cotton Better Cotton (BCI)",none,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,slight,none
+C159103971,1067693,C158658958,"Spandex,Polyester",none,none,none,none,low_sheen,unsure,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C159107834,1067789|1067899,C158840904,"Modal,Polyester",none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C159107842,1067787,C158840901,"Cotton Better Cotton (BCI),Modal",none,none,none,none,matte,semi_sheer,knit,rib,closed,clear,ribbed,fine,smooth,uniform,none,none,none,none
+C159107844,1067786,C158839700,"Cotton Better Cotton (BCI),Modal",none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,fine,smooth,uniform,none,none,none,none
+C159107846,1067785,C158836957,"Cotton Better Cotton (BCI),Modal",none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C159109813,1067815,C158966852,,none,stripe,medium,satin_sheen,medium,unsure,woven,dobby,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C159110540,1067817,C158966853,,none,dot,small,none,matte,semi_sheer,knit,mesh,small_openings,clear,textured,fine,smooth,uniform,none,none,none,none
+C159111342,1067819,C158966854,,none,geometric,medium,none,matte,unsure,knit,pique,closed,clear,textured,medium,smooth,uniform,none,none,slight,none
+C159111432,1067827,C158966857,,none,none,none,none,matte,semi_sheer,woven,plain_weave,small_openings,clear,flat,medium,smooth,uniform,none,none,slight,none
+C159111434,1067826,C158966856,,none,geometric,medium,none,matte,sheer,knit,mesh,open,clear,textured,medium,smooth,uniform,none,none,none,none
+C159111896,1067830,C158966859,Polyester,none,geometric,medium,none,matte,opaque,woven,jacquard,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C159111932,1067833,C158966860,,none,geometric,small,none,matte,sheer,knit,mesh,small_openings,clear,textured,fine,smooth,uniform,none,none,none,none
+C159139932,1067697,C158658962,"Cotton Better Cotton (BCI),Recycled Polyester",none,stripe,small,none,matte,unsure,knit,rib,closed,clear,ribbed,fine,smooth,uniform,none,none,slight,none
+C159139984,1067692,C158658957,"Nylon,Spandex",none,floral,medium,none,matte,sheer,unsure,lace,open,clear,textured,medium,smooth,irregular,none,none,none,none
+C159139985,1067694,C158658959,"Cotton Better Cotton (BCI),Spandex,Polyester",none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,slight,none
+C159140211,1067788,C158840902,"Cotton Better Cotton (BCI),Polyester",none,geometric,small,none,matte,unsure,knit,jersey,small_openings,clear,textured,fine,smooth,uniform,none,none,none,none
+C159140262,1063106|1068652|1069230,C142452427,"Cotton USCTP US Protocol Cotton,Spandex",none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,fuzzy,none
+C159141413,1070558|1067900|1067791,C171598044,"Polyester,Viscose Rayon Conventional",none,none,none,none,low_sheen,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C159369833,1067937,C159369530,"Cotton Better Cotton (BCI),Spandex",none,none,none,none,matte,unsure,woven,unsure,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C159478460,1067958,C159478433,"Recycled Polyester,Cotton Better Cotton (BCI)",none,none,none,none,matte,opaque,woven,unsure,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C159480260,1067959,C159478435,"Cotton Better Cotton (BCI),Spandex",none,none,none,none,matte,unsure,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C159491571,1066189,C153357960,"Recycled Polyester,Wool",two_tone,geometric,small,none,matte,opaque,woven,twill,closed,clear,flat,medium,slub,uniform,none,none,slight,none
+C159491769,1067836,C158967013,"Cotton USCTP Tracked US Cotton,Recycled Polyester",none,none,none,none,matte,opaque,knit,pile_knit,closed,not_visible,textured,medium,boucle_looped,uniform,none,medium,fuzzy,none
+C159493331,1067834,C158967012,"Spandex,Recycled Polyester",none,geometric,small,none,low_sheen,unsure,knit,mesh,small_openings,clear,textured,fine,smooth,uniform,none,none,none,none
+C159494332,1067867,C159002275,Cotton Better Cotton (BCI),multicolor,check_plaid,small,none,matte,unsure,woven,dobby,closed,clear,crinkled,medium,smooth,irregular,none,none,none,none
+C159506911,1067831,C158967010,Cotton USCTP Tracked US Cotton,heather_melange,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C159507524,1067982,C159507435,Cotton Better Cotton (BCI),none,none,none,none,low_sheen,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C159513538,1067825,C158967008,,none,none,none,none,matte,unsure,woven,dobby,closed,clear,ribbed,medium,slub,irregular,none,none,slight,none
+C159523024,1068019,C159515296,"Cotton Better Cotton (BCI),Chinese Linen",none,check_plaid,medium,none,matte,opaque,woven,dobby,small_openings,clear,textured,medium,slub,irregular,washed,none,slight,none
+C159523025,1068017,C159515292,Cotton Better Cotton (BCI),two_tone,geometric,small,none,matte,unsure,woven,dobby,closed,clear,textured,medium,smooth,uniform,none,none,slight,none
+C159523026,1068018,C159515294,"Cotton Better Cotton (BCI),Polyester",two_tone,stripe,medium,none,matte,opaque,woven,dobby,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C159523027,1068022,C159523511,Cotton Better Cotton (BCI),none,stripe,small,none,matte,unsure,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C159523028,1068023,C159523513,Cotton Better Cotton (BCI),none,geometric,small,none,matte,opaque,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C159523029,1068026,C159523515,Cotton Better Cotton (BCI),two_tone,stripe,medium,none,matte,opaque,woven,dobby,closed,clear,textured,fine,smooth,irregular,none,none,none,none
+C159524133,1068029,C159523517,Cotton Better Cotton (BCI),none,check_plaid,small,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C159608375,1062899,C141659610,Cotton Better Cotton (BCI),none,none,none,none,low_sheen,opaque,woven,twill,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C159721137,1067865,C159002271,"Recycled Polyester,Spandex",none,none,none,satin_sheen,low_sheen,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C159733148,1068090,C159732115,"Cotton Better Cotton (BCI),Polyester",none,none,none,none,matte,opaque,woven,twill,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C159798646,1068105,C159798610,,none,none,none,satin_sheen,medium,opaque,woven,pile_woven,closed,not_visible,textured,fine,smooth,uniform,none,low,fuzzy,none
+C159989288,1067822,C158966855,"Spandex,Nylon",none,none,none,none,matte,unsure,knit,pique,small_openings,clear,textured,fine,smooth,uniform,none,none,none,none
+C159989295,1067828,C158966858,"Cotton Better Cotton (BCI),Polyester Recycled Traceable,Viscose Rayon Conventional",none,none,none,none,matte,opaque,knit,pique,small_openings,clear,textured,fine,smooth,uniform,none,none,none,none
+C159990751,1067835,C158966861,"Spandex,Modal,Cotton Better Cotton (BCI)",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C159990754,1068161,C159984266,"Polyester Recycled Traceable,Cotton Better Cotton (BCI),Lyocell",none,none,none,none,matte,unsure,knit,mesh,small_openings,clear,textured,fine,smooth,uniform,none,none,none,none
+C159990755,1068162,C159984268,"Cotton Better Cotton (BCI),Polyester Recycled Traceable",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C159990756,1068163,C159984270,"Cotton Better Cotton (BCI),Polyester Recycled Traceable",none,none,none,none,matte,unsure,knit,pique,small_openings,clear,textured,fine,smooth,uniform,none,none,none,none
+C159991518,1068169,C159990731,"Nylon,Spandex",none,geometric,small,none,matte,unsure,woven,ripstop,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C159991593,1068168,C159990730,"Nylon,Spandex",none,check_plaid,medium,none,low_sheen,opaque,woven,ripstop,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C160060700,1068176,C160060663,"Cotton Better Cotton (BCI),Nylon",two_tone,none,none,none,matte,opaque,knit,jersey,closed,clear,textured,coarse,smooth,uniform,none,none,slight,none
+C160064556,1067862,C159001767,Recycled Polyester,none,none,none,none,matte,opaque,woven,ripstop,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C160064557,1067863,C159002267,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,unsure,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C160064558,1067864,C159002269,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160064579,1067866,C159002273,"Cotton Better Cotton (BCI),Spandex",none,none,none,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,none,none,slight,none
+C160064580,1067868,C159002277,"Cotton Better Cotton (BCI),Spandex",multicolor,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160064581,1067896,C159124249,Cotton Better Cotton (BCI),two_tone,stripe,small,none,matte,unsure,woven,plain_weave,closed,clear,crinkled,fine,smooth,uniform,none,none,none,none
+C160064582,1067907,C159215300,Cotton Better Cotton (BCI),none,floral,small,none,matte,unsure,woven,plain_weave,closed,partial,crinkled,medium,smooth,uniform,none,none,none,none
+C160064972,1067910,C159215704,Recycled Polyester,none,check_plaid,medium,none,low_sheen,unsure,woven,dobby,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160065003,1067911,C159215706,"Cotton Better Cotton (BCI),Viscose Rayon Conventional",none,stripe,medium,none,matte,unsure,woven,dobby,small_openings,clear,textured,medium,smooth,irregular,none,none,none,none
+C160065004,1067928,C159215711,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C160065005,1067951,C159215713,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160065026,1067993,C159515146,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160065027,1067996,C159515148,"Cotton Better Cotton (BCI),Viscose Rayon Conventional",multicolor,check_plaid,medium,none,matte,unsure,woven,plain_weave,closed,clear,crinkled,medium,smooth,irregular,none,none,none,none
+C160065058,1067912,C159215708,Recycled Polyester,none,none,none,satin_sheen,medium,opaque,woven,satin_weave,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C160065439,1068145,C159950004,,none,none,none,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160166303,1068212,C160166252,,none,none,none,none,matte,opaque,woven,ripstop,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C160179833,1068219,C160179447,"Cotton Better Cotton (BCI),Recycled Polyester,Spandex",two_tone,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,slub,uniform,none,none,slight,none
+C160179835,1068220,C160179448,Polyester,multicolor,stripe,medium,none,matte,sheer,knit,terry_loop,open,clear,textured,medium,unsure,irregular,none,low,slight,none
+C160187228,1067829,C158967009,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C160187753,1068225,C160187718,Cotton Better Cotton (BCI),two_tone,stripe,medium,none,matte,unsure,knit,mesh,open,clear,textured,medium,smooth,uniform,none,none,slight,none
+C160191019,1068178,C160069073,"Nylon,Recycled Polyester",heather_melange,check_plaid,small,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C160191026,1067821,C158967005,Nylon,none,none,none,none,low_sheen,unsure,woven,plain_weave,closed,partial,crinkled,fine,smooth,irregular,washed,none,none,none
+C160192366,1067823,C158967006,Nylon,none,none,none,none,low_sheen,unsure,woven,ripstop,closed,clear,crinkled,medium,smooth,irregular,unsure,none,none,none
+C160192910,1067741,C158741002,"Recycled Polyester,Polyester,Cotton Better Cotton (BCI),Viscose Rayon Conventional",none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C160192931,1067743,C158741003,"Cotton Better Cotton (BCI),Polyester",none,none,none,none,matte,opaque,knit,waffle,closed,clear,textured,medium,smooth,uniform,none,none,slight,none
+C160192933,1067974,C159495766,Cotton Better Cotton (BCI),none,stripe,small,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C160193145,1068234,C160179269,"Nylon,Recycled Polyester",two_tone,check_plaid,small,none,low_sheen,unsure,woven,ripstop,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C160193150,1067820,C158967004,Nylon,none,none,none,none,matte,unsure,woven,unsure,closed,not_visible,crinkled,medium,smooth,irregular,none,none,none,none
+C160193390,1068236,C160179454,"Cotton Better Cotton (BCI),Polyester",none,none,none,none,low_sheen,opaque,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C160193392,1068235,C160179453,Cotton Better Cotton (BCI),heather_melange,stripe,medium,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C160193557,1067832,C158967011,"Spandex,Polyester",two_tone,stripe,small,none,matte,unsure,knit,terry_loop,closed,clear,textured,medium,unsure,uniform,none,low,fuzzy,none
+C160194585,1067818,C158967003,Nylon,none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C160194593,1068233,C160179267,Nylon,none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,washed,none,slight,none
+C160194596,1067997,C159502589,"Polyester,Spandex",none,none,none,satin_sheen,low_sheen,unsure,knit,rib,closed,clear,ribbed,fine,smooth,uniform,none,none,none,none
+C160194929,1068218,C160177994,"Cotton Better Cotton (BCI),Spandex",none,dot,small,none,matte,unsure,woven,unsure,closed,partial,crinkled,fine,smooth,irregular,none,none,none,none
+C160194930,1068217,C160177992,"Cotton Better Cotton (BCI),Viscose Rayon Conventional",none,stripe,medium,none,matte,unsure,woven,dobby,closed,clear,textured,medium,smooth,irregular,none,none,slight,none
+C160194935,1067998,C159515150,"Cotton Better Cotton (BCI),Spandex,Recycled Polyester",none,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160194936,1067935,C159364093,Cotton Better Cotton (BCI),none,floral,small,none,matte,unsure,woven,plain_weave,closed,partial,crinkled,fine,smooth,irregular,none,none,none,none
+C160194937,1067908,C159215702,Viscose Rayon Conventional,two_tone,check_plaid,medium,none,matte,unsure,woven,plain_weave,small_openings,clear,textured,medium,smooth,uniform,washed,none,slight,none
+C160195767,1067950,C159373690,"Nylon,Spandex",none,floral,medium,none,low_sheen,sheer,knit,lace,open,clear,textured,medium,smooth,irregular,none,none,none,none
+C160195768,1067949,C159373689,"Nylon,Spandex",none,floral,large,none,low_sheen,semi_sheer,knit,lace,small_openings,clear,textured,medium,smooth,irregular,none,none,none,none
+C160197111,1068241,C160178000,"Modal,Polyester",none,none,none,none,matte,opaque,woven,plain_weave,closed,partial,flat,fine,smooth,irregular,washed,none,slight,none
+C160197280,1068239,C160179272,Nylon,none,none,none,none,low_sheen,unsure,woven,plain_weave,closed,partial,crinkled,fine,smooth,irregular,none,none,none,none
+C160197281,1068239,C160179272,Nylon,none,none,none,none,low_sheen,unsure,woven,plain_weave,closed,partial,crinkled,medium,smooth,irregular,none,none,none,none
+C160197583,1068048,C159528620,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C160198765,1068050,C159528622,"Cotton Better Cotton (BCI),Spandex,Recycled Polyester",none,geometric,small,none,matte,unsure,knit,waffle,closed,clear,textured,medium,smooth,uniform,none,none,slight,none
+C160198813,1068049,C159528621,"Cotton Better Cotton (BCI),Spandex,Recycled Polyester",none,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,fine,smooth,uniform,none,none,none,none
+C160199090,1068245,C160178102,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C160199091,1068246,C160178104,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C160201630,1068047,C159528619,"Cotton Better Cotton (BCI),Polyester",none,geometric,small,none,matte,unsure,knit,mesh,small_openings,clear,textured,fine,smooth,uniform,none,none,none,none
+C160201948,1068046,C159528618,"Cotton Better Cotton (BCI),Nylon",none,floral,large,satin_sheen,low_sheen,sheer,knit,lace,open,clear,textured,coarse,smooth,irregular,none,none,none,none
+C160202106,1068248,C160178106,"Cotton Better Cotton (BCI),Viscose Rayon Conventional",two_tone,stripe,small,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160205389,1068595,C161728172,Cotton Better Cotton (BCI),heather_melange,geometric,medium,none,matte,unsure,woven,waffle,closed,clear,textured,medium,slub,uniform,washed,none,slight,none
+C160205846,1068592|1068252,C161642045,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,woven,ripstop,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C160206823,1068253,C160205850,Nylon,none,check_plaid,small,none,matte,unsure,woven,ripstop,closed,clear,textured,fine,smooth,uniform,washed,none,none,none
+C160270267,1068261,C160270102,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C160272103,1061371,C134716910,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160274270,1068155,C159963400,"Cotton Better Cotton (BCI),Polyester,Spandex",none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160274275,1067940,C159373679,"Polyester,Spandex",heather_melange,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C160274804,1067895,C159121426,,none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C160274805,1067894,C159121425,,heather_melange,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C160275103,1067941,C159373680,"Polyester,Spandex",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C160277417,1068270,C160277246,"Cotton Better Cotton (BCI),Viscose Rayon Conventional",none,dot,small,none,matte,opaque,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C160277875,1068272,C160277252,"Lyocell,Cotton Better Cotton (BCI),Others",none,none,none,none,matte,unsure,knit,unsure,closed,partial,crinkled,fine,smooth,irregular,none,none,none,none
+C160277876,1068271,C160277250,"Cotton Better Cotton (BCI),Lyocell,Others",none,none,none,none,matte,unsure,knit,jersey,closed,partial,crinkled,fine,smooth,irregular,none,none,none,none
+C160298571,1068287,C160292554,"Polyester,Spandex",none,floral,medium,none,matte,semi_sheer,knit,lace,small_openings,clear,textured,medium,smooth,irregular,none,none,none,none
+C160302907,1068291,C160302880,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C160306889,1068295,C160292556,Cotton Better Cotton (BCI),none,stripe,medium,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C160309161,1068293,C160302270,"Cotton Better Cotton (BCI),Polyester",none,check_plaid,medium,none,matte,unsure,woven,plain_weave,closed,partial,brushed,medium,unsure,uniform,washed,none,fuzzy,none
+C160326313,1068308,C160321859,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C160329925,1068311,C160329807,"Recycled Cotton,Cotton Better Cotton (BCI)",multicolor,stripe,medium,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160330328,1068312,C160329809,,two_tone,geometric,small,none,matte,opaque,woven,dobby,closed,clear,textured,fine,smooth,uniform,washed,none,slight,none
+C160390610,1068317,C160390585,,two_tone,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,irregular,washed,none,slight,none
+C160393711,1068318,C160390588,,none,none,none,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C160394412,1068319,C160394175,"Cotton Better Cotton (BCI),Cotton USCTP Tracked US Cotton,Recycled Cotton",two_tone,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,washed,none,none,none
+C160394414,1068320,C160394178,"Cotton Better Cotton (BCI),Spandex",none,check_plaid,small,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,washed,none,none,none
+C160394416,1068323,C160396550,Cotton Better Cotton (BCI),none,stripe,small,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160396438,1068322,C160395261,Cotton Better Cotton (BCI),two_tone,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,washed,none,none,none
+C160397358,1068324,C160396892,"Cotton Better Cotton (BCI),Recycled Cotton",two_tone,stripe,small,none,matte,opaque,woven,dobby,closed,clear,textured,medium,smooth,uniform,washed,none,slight,none
+C160402483,1068328,C160401025,"Cotton Better Cotton (BCI),Recycled Cotton",two_tone,stripe,small,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,washed,none,slight,none
+C160419133,1068338,C160418586,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,knit,waffle,small_openings,clear,textured,medium,smooth,uniform,none,none,slight,none
+C160419155,1068530|1044985,C161244264,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,washed,none,slight,none
+C160527869,1068345,C160527815,Cotton Better Cotton (BCI),none,stripe,small,none,matte,semi_sheer,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C160592244,1068355,C160592219,Cotton Better Cotton (BCI),multicolor,check_plaid,large,none,matte,semi_sheer,woven,plain_weave,open,clear,crinkled,fine,smooth,irregular,none,none,none,none
+C160600789,1068356,C160600482,Cotton Better Cotton (BCI),none,floral,small,none,matte,semi_sheer,woven,plain_weave,small_openings,clear,crinkled,fine,smooth,irregular,none,none,none,none
+C160605149,1068352,C160518053,"Viscose Rayon Conventional,Polyester",multicolor,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160605357,1062223,C139134270,"Cotton Better Cotton (BCI),Chinese Linen",two_tone,check_plaid,medium,none,matte,unsure,woven,plain_weave,small_openings,clear,flat,medium,smooth,uniform,washed,none,slight,none
+C160636198,1065563,C150370127,Cotton Better Cotton (BCI),two_tone,check_plaid,medium,none,matte,opaque,woven,dobby,closed,clear,flat,medium,smooth,irregular,none,none,none,none
+C160636199,1065564,C150370129,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,smooth,irregular,washed,none,none,none
+C160692223,1068392,C160690696,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,twill,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C160693220,1068391,C160689541,"Modal,Cotton Better Cotton (BCI),Nylon",none,dot,small,none,low_sheen,sheer,woven,dobby,small_openings,clear,textured,fine,smooth,irregular,none,none,none,none
+C160694234,1068393,C160690699,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160695496,1068395,C160696192,"Polyester,Wool,Viscose Rayon Conventional,Spandex",none,none,none,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160695511,1068394,C160692202,"Recycled Polyester,Spandex,Viscose Rayon Conventional",none,none,none,none,matte,unsure,woven,unsure,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C160700956,1068396,C160700931,Nylon,none,none,none,none,low_sheen,semi_sheer,woven,plain_weave,closed,not_visible,crinkled,fine,smooth,irregular,none,none,none,none
+C160704371,1068397,C160704341,Cotton Better Cotton (BCI),two_tone,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,crinkled,medium,smooth,irregular,none,none,none,none
+C160706252,1068398,C160704343,Nylon,none,none,none,satin_sheen,high,unsure,woven,plain_weave,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C160706880,1068400,C160706811,"Viscose Rayon Conventional,Nylon",none,none,none,satin_sheen,low_sheen,unsure,woven,unsure,closed,not_visible,crinkled,fine,smooth,irregular,washed,none,none,none
+C160707742,1068403,C160704345,"Recycled Polyester,Lenzing Ecovero,Spandex",heather_melange,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160744455,1068413,C160728408,Cotton Better Cotton (BCI),none,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,crinkled,fine,smooth,uniform,none,none,none,none
+C160820823,1068423,C160819791,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C160820826,1068428,C160819795,"Cotton Better Cotton (BCI),Nylon,Lenzing Ecovero",none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C160820835,1068426,C160819793,Cotton Better Cotton (BCI),none,geometric,large,none,matte,opaque,knit,jacquard,closed,clear,textured,coarse,smooth,irregular,none,none,slight,none
+C160820868,1068427,C160819794,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,knit,pique,closed,clear,textured,coarse,smooth,uniform,none,none,slight,none
+C160820869,1068430,C160819797,Cotton Better Cotton (BCI),heather_melange,none,none,none,matte,opaque,knit,jersey,closed,clear,textured,medium,boucle_looped,uniform,none,none,slight,none
+C160820870,1068432,C160819799,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160820873,1068434,C160819801,"Cotton Better Cotton (BCI),Recycled Polyester",heather_melange,none,none,none,matte,unsure,knit,jersey,closed,clear,textured,medium,unsure,uniform,none,none,slight,none
+C160820874,1068433,C160819800,"Cotton Better Cotton (BCI),Recycled Polyester",none,none,none,none,matte,opaque,knit,terry_loop,closed,clear,textured,fine,smooth,uniform,none,low,slight,none
+C160820875,1068429,C160819796,Cotton Better Cotton (BCI),none,geometric,medium,none,matte,semi_sheer,knit,lace,open,clear,textured,coarse,smooth,uniform,none,none,slight,none
+C160821348,1068431,C160819798,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160848440,1068450,C160846994,"Cotton Traceable Better Cotton (BCI),Nylon",none,none,none,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160849914,1068452,C160848489,Nylon,none,none,none,none,low_sheen,unsure,woven,plain_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C160849961,1068454,C160849935,"Viscose Rayon Conventional,Spandex,Polyester",none,check_plaid,small,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160853862,1065814,C151572503,Cotton Better Cotton (BCI),none,geometric,small,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160853947,1065813,C151572501,Cotton Better Cotton (BCI),heather_melange,geometric,small,none,matte,unsure,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C160854278,1065554,C150370115,Polyester,none,none,none,none,matte,opaque,unsure,unsure,closed,not_visible,brushed,fine,unsure,uniform,none,low,fuzzy,none
+C160854347,1065557,C150370117,Polyester Recycled Traceable,none,none,none,none,low_sheen,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160854361,1065562,C150370125,"Recycled Polyester,Viscose Rayon Conventional",heather_melange,none,none,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160854366,1065959,C152129260,Polyurethane,none,none,none,none,low_sheen,opaque,coated_leather_like,unsure,closed,not_visible,textured,medium,unsure,uniform,none,none,none,none
+C160854394,1065998,C152185919,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,unsure,woven,twill,closed,clear,textured,medium,nubby,uniform,none,none,slight,none
+C160854404,1065547,C150363139,Nylon,none,none,none,none,low_sheen,opaque,woven,twill,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C160854511,1065560,C150370121,"Recycled Polyester,Wool",multicolor,check_plaid,medium,none,matte,opaque,woven,unsure,closed,not_visible,brushed,coarse,unsure,uniform,none,none,hairy,none
+C160854517,1065561,C150370123,Recycled Polyester,heather_melange,none,none,none,matte,opaque,woven,twill,closed,clear,textured,medium,nubby,uniform,none,none,slight,none
+C160854609,1065558,C150370119,Recycled Polyester,multicolor,check_plaid,medium,none,matte,opaque,woven,unsure,closed,not_visible,brushed,medium,unsure,uniform,none,none,hairy,none
+C160854723,1065883,C151840619,"Polyester,Wool",heather_melange,none,none,none,matte,opaque,knit,brushed_fleece,closed,partial,brushed,medium,nubby,irregular,none,low,fuzzy,none
+C160854809,1065799,C151454075,"Spandex,Polyester,Viscose Rayon Conventional",heather_melange,none,none,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C160854940,1065997,C152185917,Cotton Better Cotton (BCI),none,check_plaid,large,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C160917849,1068425,C160819792,Recycled Cotton,heather_melange,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C160918512,1068462,C160918240,Cotton Better Cotton (BCI),multicolor,stripe,medium,none,matte,unsure,woven,dobby,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C160926796,1068469,C160926769,Viscose Rayon Conventional,none,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C160933583,1068290,C160302266,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C161032013,1068483,C161031686,"Cotton Better Cotton (BCI),Nylon",none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C161032746,1068485,C161032715,Cotton Better Cotton (BCI),heather_melange,geometric,medium,none,matte,semi_sheer,knit,jacquard,small_openings,clear,textured,coarse,smooth,uniform,none,none,slight,none
+C161035175,1068486,C161034199,Recycled Polyester,none,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C161052905,1068496,C161052379,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,semi_sheer,woven,plain_weave,small_openings,clear,crinkled,medium,smooth,irregular,none,none,none,none
+C161054451,1068497,C161054426,Cotton Better Cotton (BCI),none,check_plaid,medium,none,matte,unsure,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C161055114,1068498,C161054453,,none,none,none,satin_sheen,low_sheen,opaque,woven,plain_weave,closed,partial,flat,fine,smooth,uniform,none,none,slight,none
+C161130528,1068506,C161130400,"Cotton Better Cotton (BCI),Recycled Polyester",none,geometric,medium,none,matte,sheer,knit,lace,open,clear,textured,medium,smooth,uniform,none,none,none,none
+C161130628,1068507,C161130601,Cotton Better Cotton (BCI),two_tone,check_plaid,small,none,matte,unsure,woven,jacquard,closed,clear,textured,fine,smooth,irregular,none,none,none,none
+C161130811,1068508,C161130504,"Cotton Better Cotton (BCI),Nylon,Recycled Polyester",heather_melange,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C161155283,1068519,C161154486,Recycled Polyester,none,none,none,none,low_sheen,opaque,knit,pile_knit,closed,not_visible,textured,coarse,unsure,uniform,none,high,hairy,none
+C161233938,1068523,C161233913,"Lycra,TENCEL Lyocell,Cotton USCTP Tracked US Cotton",two_tone,none,none,none,low_sheen,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,washed,none,slight,none
+C161234182,1068524,C161233915,"Linen Masters of Flax Fibre (MFF),Viscose Rayon Conventional,Spandex",none,none,none,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C161237308,1068527,C161233919,"Cotton Better Cotton (BCI),Linen Masters of Flax Fibre (MFF),Spandex",none,none,none,none,matte,unsure,woven,plain_weave,closed,clear,flat,medium,slub,irregular,none,none,slight,none
+C161257418,1068538,C161257092,Cotton Better Cotton (BCI),none,geometric,medium,none,matte,semi_sheer,knit,jacquard,small_openings,clear,textured,medium,smooth,uniform,none,none,slight,none
+C161364248,1062976,C142079025,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C161419375,1068310,C160329805,"Cotton Better Cotton (BCI),Recycled Cotton",none,check_plaid,small,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C161621324,1068581,C161615228,Recycled Polyester,none,none,none,satin_sheen,low_sheen,unsure,woven,plain_weave,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C161728358,1068249,C160202192,Cotton Better Cotton (BCI),multicolor,check_plaid,large,none,matte,unsure,woven,waffle,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C161851074,1068607,C161850100,Cotton Better Cotton (BCI),none,check_plaid,small,none,matte,unsure,woven,dobby,closed,clear,textured,fine,nubby,uniform,none,low,slight,none
+C161879655,1068619,C161879622,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C161883723,1064594,C147442328,Recycled Polyester,none,none,none,satin_sheen,low_sheen,unsure,woven,satin_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C161883724,1064652,C147960055,Recycled Polyester,none,none,none,satin_sheen,low_sheen,unsure,woven,satin_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C162015871,1056275,C124131107,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,opaque,woven,plain_weave,small_openings,clear,textured,coarse,nubby,uniform,none,none,slight,none
+C162533926,1065987,C152167145,Cotton Better Cotton (BCI),multicolor,check_plaid,large,none,matte,unsure,woven,plain_weave,small_openings,clear,crinkled,medium,smooth,irregular,none,none,none,none
+C162533931,1068698,C162431560,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,unsure,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C163153610,1065405,C149973601,"Spandex,Polyester",unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,not_visible,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure
+C163818643,1068817,C163818613,"Cotton Better Cotton (BCI),Recycled Polyester",heather_melange,abstract,small,none,matte,unsure,knit,jersey,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C164014405,1067905,C159215298,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,irregular,washed,none,slight,none
+C164015106,1068292,C160302267,Cotton Better Cotton (BCI),none,none,none,none,low_sheen,unsure,woven,plain_weave,closed,partial,flat,fine,smooth,uniform,washed,none,slight,none
+C164017585,1067618,C158357303,"Cotton Better Cotton (BCI),Cotton USCTP US Protocol Cotton",none,none,none,none,matte,unsure,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C164018101,1067619,C158357305,"Cotton Better Cotton (BCI),Cotton USCTP US Protocol Cotton",heather_melange,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C164880670,1069100,C164880306,"Cotton Better Cotton (BCI),Spandex",none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C165085293,1069109,C165085211,"Cotton Better Cotton (BCI),Recycled Polyester",heather_melange,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C165096439,1056230,C124111919,Cotton Better Cotton (BCI),multicolor,stripe,small,none,matte,unsure,woven,plain_weave,closed,clear,textured,medium,slub,irregular,none,none,slight,none
+C165096463,1056042,C123620258,Cotton Better Cotton (BCI),none,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,crinkled,fine,smooth,irregular,washed,none,slight,none
+C165236932,1069122,C165236905,"Cotton Better Cotton (BCI),Recycled Cotton",none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C166338223,1069188,C166337859,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,knit,jersey,closed,clear,textured,medium,nubby,uniform,none,none,slight,none
+C166775997,1069189,C166337860,"Cotton Better Cotton (BCI),Nylon Conventional 6",none,none,none,none,matte,opaque,knit,unsure,closed,clear,textured,coarse,slub,irregular,none,none,slight,none
+C166777464,1069287,C166777436,"Cotton Better Cotton (BCI),Recycled Cotton,Spandex",two_tone,none,none,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,washed,none,none,none
+C166889878,1069302,C166889291,Recycled Polyester,none,none,none,none,low_sheen,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C166977934,1058912,C131069542,"Cotton USCTP Tracked US Cotton,Cotton Better Cotton (BCI),Spandex",none,none,none,none,matte,unsure,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C167073512,1069330,C167073055,,heather_melange,geometric,large,none,matte,opaque,knit,unsure,closed,clear,textured,coarse,smooth,irregular,none,none,slight,none
+C167098425,1069333,C167097697,"Cotton Better Cotton (BCI),Polyester Recycled Traceable",heather_melange,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C167321282,1069417,C167321224,Cotton Better Cotton (BCI),none,none,none,none,matte,semi_sheer,woven,dobby,small_openings,clear,textured,fine,smooth,uniform,none,none,none,none
+C167321568,1069418,C167321226,Cotton Better Cotton (BCI),none,check_plaid,medium,none,matte,unsure,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C167321823,1069419,C167321228,Cotton Better Cotton (BCI),none,stripe,small,none,matte,semi_sheer,woven,dobby,closed,clear,textured,fine,smooth,irregular,none,none,none,none
+C167321877,1069423,C167321230,Cotton Better Cotton (BCI),two_tone,stripe,small,none,matte,semi_sheer,woven,plain_weave,closed,partial,crinkled,medium,smooth,irregular,none,none,none,none
+C167437471,1069463,C167437138,,none,none,none,none,matte,opaque,coated_leather_like,unsure,closed,not_visible,brushed,fine,unsure,uniform,none,low,fuzzy,none
+C167478752,1069464,C167478725,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,unsure,woven,dobby,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C167642048,1069504,C167641649,"Viscose Rayon Conventional,Polyester",none,none,none,none,matte,opaque,woven,twill,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C167650208,1069515,C167649733,"TENCEL Lyocell,Linen Masters of Flax Fibre (MFF)",none,none,none,none,matte,unsure,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C167952155,1069552,C167951239,,none,none,none,none,low_sheen,opaque,coated_leather_like,not_visible,closed,not_visible,textured,medium,unsure,irregular,washed,none,none,none
+C167983311,1069416,C167314403,Cotton Better Cotton (BCI),none,geometric,small,none,matte,unsure,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C168077832,1069590,C168077402,Cotton Better Cotton (BCI),none,stripe,medium,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,washed,none,slight,none
+C168292054,1069684,C168252276,Polyester,none,check_plaid,medium,none,matte,sheer,woven,mesh,open,clear,textured,medium,slub,uniform,none,none,slight,none
+C168292122,1069655,C168226878,Cotton Better Cotton (BCI),none,dot,small,none,matte,semi_sheer,woven,plain_weave,closed,clear,crinkled,fine,smooth,irregular,none,none,none,none
+C168292220,1069654,C168226874,Cotton Better Cotton (BCI),none,check_plaid,small,none,matte,unsure,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C168292607,1069683,C168252274,"Cotton Better Cotton (BCI),Viscose Rayon Conventional",none,stripe,small,none,matte,semi_sheer,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C168292677,1069687,C168252280,Cotton Better Cotton (BCI),none,check_plaid,small,none,matte,semi_sheer,woven,dobby,small_openings,clear,textured,fine,smooth,uniform,none,none,none,none
+C168293113,1068157,C159950008,"Nylon,Cotton Better Cotton (BCI),Linen Masters of Flax Fibre (MFF)",two_tone,stripe,large,satin_sheen,low_sheen,opaque,woven,plain_weave,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C168358864,1069331,C167073056,"Cotton Better Cotton (BCI),Nylon",two_tone,stripe,medium,none,matte,unsure,knit,unsure,small_openings,clear,textured,medium,smooth,irregular,none,none,none,none
+C168359001,1069685,C168252278,"Polyester,Nylon,Viscose Rayon Conventional",none,check_plaid,medium,none,matte,semi_sheer,woven,dobby,small_openings,clear,textured,medium,smooth,uniform,none,none,none,none
+C168359255,1068156,C159950006,Nylon,none,none,none,none,matte,unsure,woven,plain_weave,closed,clear,crinkled,fine,smooth,irregular,none,none,none,none
+C168360626,1069703,C168258774,"Cotton Better Cotton (BCI),Spandex",two_tone,check_plaid,small,none,matte,unsure,woven,plain_weave,closed,clear,crinkled,fine,smooth,irregular,none,none,none,none
+C168360627,1069688,C168256075,"Cotton Better Cotton (BCI),Spandex",none,check_plaid,small,none,matte,opaque,woven,plain_weave,closed,clear,crinkled,fine,smooth,uniform,none,none,none,none
+C168367262,1069745,C168367212,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,slight,none
+C168382050,1069755,C168381585,"Polyester,Recycled Polyester",two_tone,dot,small,none,low_sheen,unsure,knit,unsure,unsure,partial,textured,fine,smooth,uniform,none,none,none,none
+C168382051,1069754,C168381584,"Cotton Better Cotton (BCI),Polyester Recycled Traceable",none,stripe,medium,none,matte,opaque,knit,pique,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C168382216,1069756,C168381587,Polyester,none,none,none,satin_sheen,low_sheen,opaque,knit,rib,closed,clear,ribbed,fine,smooth,uniform,none,none,none,none
+C168382249,1069757,C168381589,Polyester,none,check_plaid,small,none,matte,unsure,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C168382284,1069758,C168381591,"Nylon,Spandex",none,none,none,none,matte,opaque,coated_leather_like,unsure,closed,not_visible,brushed,fine,unsure,uniform,none,low,fuzzy,none
+C168382784,1069759,C168381593,Nylon,none,none,none,none,matte,opaque,nonwoven,unsure,closed,not_visible,textured,fine,unsure,uniform,none,none,fuzzy,none
+C168383028,1069760,C168381595,Nylon,none,none,none,none,low_sheen,opaque,woven,pile_woven,closed,clear,ribbed,fine,smooth,uniform,washed,low,slight,none
+C168383727,1069761,C168381597,Nylon,none,none,none,none,low_sheen,unsure,woven,twill,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C168383759,1069762,C168381599,"Polyester,Polyester Partially Bio-based Lycra T400 EcoMade",none,none,none,none,low_sheen,opaque,woven,twill,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C168529968,1069805,C168526844,Cotton Better Cotton (BCI),two_tone,stripe,small,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C168536593,1062566,C140620573,Cotton Better Cotton (BCI),none,check_plaid,medium,none,matte,unsure,nonwoven,unsure,closed,not_visible,flat,fine,unsure,uniform,none,none,slight,none
+C168537471,1067277,C157303659,Cotton Better Cotton (BCI),multicolor,check_plaid,small,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C168537659,1067171,C156146348,"Cotton Better Cotton (BCI),Polyester",multicolor,check_plaid,small,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C168822708,1069321,C166992111,"Recycled Polyester,Viscose Rayon Conventional",heather_melange,none,none,none,matte,opaque,woven,twill,closed,clear,textured,fine,smooth,uniform,none,none,slight,none
+C168822979,1065933,C151984025,"Polyester,Viscose Rayon Conventional",none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C168837486,1069998,C168836067,,none,none,none,none,matte,unsure,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C169121340,1070043,C169121313,"Cotton Better Cotton (BCI),Polyester",multicolor,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C169360000,1070067,C169355235,"Viscose Rayon Conventional,Nylon",none,none,none,none,low_sheen,opaque,woven,plain_weave,closed,clear,crinkled,fine,smooth,uniform,none,none,none,none
+C169654805,1070109,C169654654,"Cotton Better Cotton (BCI),Viscose Rayon Conventional",none,none,none,none,matte,unsure,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C169749752,1070183,C169748444,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C169794310,1070192,C169791538,Polyester,none,none,none,satin_sheen,low_sheen,unsure,woven,unsure,closed,not_visible,brushed,fine,smooth,uniform,none,none,slight,none
+C169795768,1070193,C169795743,"Cotton Better Cotton (BCI),Nylon",none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,irregular,none,none,slight,none
+C170000636,1049757,C100042686,"Cotton Better Cotton (BCI),Spandex,Recycled Polyester",none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,irregular,none,none,slight,none
+C170000637,1049757,C100042686,"Cotton Better Cotton (BCI),Spandex,Recycled Polyester",none,none,none,satin_sheen,low_sheen,opaque,woven,unsure,closed,not_visible,brushed,fine,smooth,uniform,washed,none,slight,none
+C170299624,1070326,C170298533,"Cotton Better Cotton (BCI),Recycled Polyester",none,geometric,medium,none,matte,unsure,knit,jacquard,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C170299625,1070327,C170298534,Cotton Better Cotton (BCI),none,none,none,none,matte,semi_sheer,knit,jersey,small_openings,clear,textured,fine,slub,irregular,none,none,slight,none
+C170299627,1070328,C170298535,"Chinese Linen,Recycled Polyester,Cotton Better Cotton (BCI)",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C170299628,1070329,C170298536,Cotton Better Cotton (BCI),heather_melange,geometric,medium,none,matte,unsure,knit,jacquard,closed,clear,textured,medium,smooth,uniform,none,none,slight,none
+C170634599,1070397,C170634574,"Cotton Better Cotton (BCI),Spandex,Nylon",none,none,none,none,low_sheen,opaque,woven,plain_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C170635174,1070398,C170635149,"Cotton Better Cotton (BCI),Nylon,Spandex",none,none,none,none,matte,opaque,woven,plain_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C170635350,1070399,C170635151,Cotton Better Cotton (BCI),none,check_plaid,small,none,matte,semi_sheer,woven,dobby,small_openings,clear,textured,fine,smooth,irregular,none,none,none,none
+C170660584,1070417,C170660486,Cotton Better Cotton (BCI),none,none,none,none,matte,semi_sheer,woven,plain_weave,small_openings,clear,flat,fine,smooth,uniform,none,none,none,none
+C170758120,1070431,C170757984,Cotton Better Cotton (BCI),none,check_plaid,small,none,matte,unsure,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C170856402,1070445,C170856274,"Polyester,Modal",none,none,none,satin_sheen,low_sheen,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C170865632,1070451,C170865602,"Cotton Better Cotton (BCI),Spandex",heather_melange,stripe,medium,none,matte,semi_sheer,woven,plain_weave,closed,clear,crinkled,fine,smooth,irregular,none,none,none,none
+C170866049,1070452,C170864997,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C170866052,1070455,C170865000,Cotton Better Cotton (BCI),heather_melange,none,none,none,matte,opaque,knit,jersey,closed,clear,textured,medium,smooth,uniform,none,none,slight,none
+C170866053,1070454,C170864999,"Cotton Better Cotton (BCI),Recycled Polyester",heather_melange,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,slub,irregular,none,none,slight,none
+C170866055,1070453,C170864998,"Cotton Better Cotton (BCI),Recycled Polyester",none,stripe,medium,none,matte,opaque,knit,terry_loop,closed,clear,textured,fine,smooth,uniform,none,low,slight,none
+C170874441,1070459,C170874184,"Cotton Better Cotton (BCI),Recycled Cotton",two_tone,stripe,medium,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,washed,none,slight,none
+C170875783,1070460,C170874187,,none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,irregular,washed,none,slight,none
+C170895100,1062223,C139134270,"Cotton Better Cotton (BCI),Chinese Linen",none,stripe,medium,none,matte,semi_sheer,woven,plain_weave,small_openings,clear,flat,fine,smooth,uniform,none,none,slight,none
+C170913586,1070470|1070472|1070471,C170912426,"Spandex,Nylon Conventional 66",none,geometric,small,none,matte,unsure,knit,pique,closed,clear,textured,fine,smooth,uniform,none,none,slight,none
+C170914681,1070472,C170912430,,two_tone,stripe,small,none,matte,opaque,knit,rib,closed,clear,ribbed,fine,smooth,irregular,none,none,none,none
+C170995040,1070477,C170994891,"Cotton Better Cotton (BCI),Polyester",none,none,none,none,matte,opaque,knit,terry_loop,closed,clear,textured,fine,smooth,uniform,none,low,slight,none
+C170995198,1070476,C170994890,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C170998329,1070481,C170998302,,none,none,none,none,matte,unsure,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C171264498,1070510,C171264467,Polyester,none,none,none,satin_sheen,low_sheen,opaque,woven,plain_weave,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C171368223,1070523,C171368189,"Cotton Better Cotton (BCI),Polyester",none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C171397123,1070531,C171396756,Cotton Better Cotton (BCI),two_tone,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C171526582,1068510,C161133044,"Cotton Better Cotton (BCI),Viscose Rayon Conventional",two_tone,check_plaid,small,none,matte,semi_sheer,woven,plain_weave,closed,clear,crinkled,medium,smooth,uniform,none,none,none,none
+C171542127,1070543,C171541756,"Cotton Better Cotton (BCI),Linen Masters of Flax Fibre (MFF),Polyester",none,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,brushed,medium,slub,uniform,none,none,slight,none
+C171779236,1070586,C171776276,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,ripstop,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C171969984,1070604,C171969851,Cotton Better Cotton (BCI),heather_melange,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,washed,none,none,none
+C172249006,1070633,C172245613,,none,none,none,none,matte,opaque,woven,twill,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C172479898,1070673,C172479833,Cotton Better Cotton (BCI),none,floral,small,none,matte,opaque,woven,dobby,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C172626524,1070695,C172626435,Nylon,none,none,none,none,low_sheen,unsure,woven,plain_weave,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C172788590,1070724,C172788544,Nylon,none,none,none,satin_sheen,low_sheen,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C172814615,1070729,C172788546,,two_tone,stripe,medium,none,matte,unsure,woven,dobby,closed,clear,crinkled,medium,smooth,irregular,washed,none,none,none
+C174151214,1070539,C171530209,"Cotton Better Cotton (BCI),Nylon",heather_melange,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C174312704,1067508,C157595355,,none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C174531922,1070982,C174528795,Cotton Better Cotton (BCI),none,stripe,medium,none,matte,unsure,woven,plain_weave,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C175291900,1071077,C175289708,Cotton Better Cotton (BCI),multicolor,check_plaid,large,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C175292126,1071076,C175289707,Polyester,heather_melange,geometric,small,none,matte,opaque,woven,twill,closed,clear,flat,medium,nubby,uniform,none,none,slight,none
+C175292312,1071076,C175289707,Polyester,heather_melange,geometric,small,none,matte,opaque,woven,twill,closed,clear,textured,medium,nubby,uniform,none,none,slight,none
+C175292911,1071075,C175289706,Recycled Polyester,multicolor,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,flat,medium,nubby,irregular,none,none,slight,none
+C175292915,1071076,C175289707,Polyester,heather_melange,geometric,small,none,matte,opaque,woven,twill,closed,clear,textured,medium,nubby,uniform,none,none,slight,none
+C175292940,1071074,C175289705,Cotton Better Cotton (BCI),none,check_plaid,large,none,matte,unsure,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C175293259,1071073,C175289704,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,irregular,none,none,none,none
+C175293267,1071072,C175289703,,multicolor,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C175293485,1071002,C174689378,Recycled Polyester,multicolor,check_plaid,medium,none,matte,opaque,woven,dobby,closed,clear,textured,coarse,slub,uniform,washed,none,fuzzy,none
+C175293555,1071071,C175289702,,none,check_plaid,small,none,matte,unsure,woven,plain_weave,small_openings,clear,crinkled,medium,smooth,irregular,none,none,none,none
+C175294092,1071046,C175102366,"Recycled Polyester,Wool",multicolor,check_plaid,small,none,matte,opaque,woven,plain_weave,closed,clear,textured,medium,smooth,uniform,none,none,fuzzy,none
+C175294156,1071015,C174818142,"Recycled Polyester,Viscose Rayon Conventional,Spandex",multicolor,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,textured,medium,slub,uniform,none,none,slight,none
+C175294482,1071046,C175102366,"Recycled Polyester,Wool",heather_melange,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,flat,medium,nubby,uniform,none,none,fuzzy,none
+C175294489,1071047,C175102367,"Wool,Recycled Polyester",none,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C175294855,1071048,C175102368,Recycled Polyester,two_tone,none,none,none,matte,opaque,coated_leather_like,unsure,closed,not_visible,brushed,fine,unsure,irregular,washed,none,slight,none
+C175294965,1071016,C174818143,Recycled Polyester,multicolor,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,flat,medium,unsure,uniform,none,none,fuzzy,none
+C175294980,1071019,C174821144,Recycled Polyester,heather_melange,geometric,medium,none,matte,opaque,woven,twill,closed,clear,textured,coarse,nubby,uniform,none,none,fuzzy,none
+C175295530,1071049,C175102369,"Recycled Polyester,Polyurethane",two_tone,none,none,none,low_sheen,opaque,coated_leather_like,unsure,closed,not_visible,textured,medium,unsure,irregular,distressed,none,none,none
+C175295707,1071061,C175288293,Recycled Polyester,heather_melange,none,none,none,matte,opaque,knit,pile_knit,closed,not_visible,textured,coarse,boucle_looped,irregular,none,high,hairy,none
+C175295747,1071063,C175288294,Recycled Polyester,multicolor,check_plaid,medium,none,matte,opaque,woven,unsure,small_openings,clear,textured,coarse,nubby,irregular,none,none,fuzzy,none
+C175295841,1071050,C175102370,"Polyester,Polyurethane",none,none,none,none,low_sheen,opaque,coated_leather_like,not_visible,closed,not_visible,textured,fine,unsure,uniform,none,none,none,none
+C175296192,1071064,C175288295,,multicolor,check_plaid,large,none,matte,opaque,woven,plain_weave,closed,not_visible,brushed,coarse,unsure,uniform,none,medium,hairy,none
+C175296471,1071066,C175288297,"Recycled Polyester,Viscose Rayon Conventional,Spandex",none,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C175296594,1071067,C175288298,,none,geometric,small,none,low_sheen,unsure,woven,ripstop,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C175297298,1071069,C175288300,"Cotton Better Cotton (BCI),Nylon",none,none,none,textured_shine,low_sheen,unsure,woven,unsure,closed,not_visible,crinkled,medium,smooth,irregular,washed,none,none,none
+C175297776,1071068,C175288299,"Cotton Better Cotton (BCI),Spandex",none,check_plaid,small,none,matte,opaque,woven,ripstop,closed,clear,textured,medium,smooth,uniform,washed,none,none,none
+C175297982,1071005,C174701663,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,none,none,slight,none
+C175297987,1071004,C174701661,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,fuzzy,none
+C175298122,1071070,C175289701,Polyester,none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C175298167,1070995,C174689374,"Cotton Better Cotton (BCI),Nylon",none,none,none,none,matte,unsure,woven,plain_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C175298520,1071003,C174701659,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,opaque,woven,unsure,closed,clear,textured,medium,unsure,irregular,none,none,slight,none
+C175467799,1071085,C175433860,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,brushed,medium,slub,uniform,washed,none,fuzzy,none
+C175599231,1071103,C175598494,Recycled Polyester,two_tone,none,none,none,low_sheen,opaque,coated_leather_like,unsure,closed,not_visible,textured,fine,unsure,irregular,distressed,low,slight,none
+C175607015,1071104,C175598495,Recycled Polyester,none,none,none,none,matte,opaque,coated_leather_like,unsure,closed,not_visible,brushed,fine,unsure,uniform,none,low,slight,none
+C175608278,1071103,C175598494,Recycled Polyester,two_tone,none,none,none,matte,opaque,coated_leather_like,unsure,closed,not_visible,brushed,fine,unsure,irregular,washed,low,fuzzy,none
+C175608281,1071104,C175598495,Recycled Polyester,two_tone,none,none,none,low_sheen,opaque,coated_leather_like,unsure,closed,not_visible,textured,fine,unsure,irregular,distressed,none,none,none
+C175706868,1071048,C175102368,Recycled Polyester,multicolor,none,none,none,matte,opaque,woven,twill,closed,clear,textured,medium,slub,uniform,none,none,slight,none
+C175832606,1071131,C175831826,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,knit,waffle,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C175967309,1071145,C175966290,Polyester,none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,irregular,washed,none,slight,none
+C175970710,1071155|1072149|1071065|1072134,C175971058,Nylon,none,none,none,none,low_sheen,semi_sheer,woven,ripstop,closed,clear,textured,fine,smooth,uniform,none,none,none,none
+C176235452,1071144,C175965756,Cotton Better Cotton (BCI),none,stripe,small,none,matte,unsure,woven,plain_weave,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C176310282,1064558,C147121048,Polyester,none,none,none,none,low_sheen,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C176889416,1070528,C171392712,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,knit,jersey,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C176890034,1071027,C174833867,Cotton Better Cotton (BCI),heather_melange,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C176890035,1071026,C174833866,Cotton Better Cotton (BCI),heather_melange,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,medium,smooth,irregular,none,none,slight,none
+C177248477,1071470,C177248408,"Cotton Better Cotton (BCI),Linen Masters of Flax Fibre (MFF)",heather_melange,stripe,medium,none,matte,unsure,woven,plain_weave,closed,clear,flat,medium,slub,uniform,none,none,slight,none
+C177303646,1071386,C176915137,,none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C177411722,1071530,C177402143,"Cotton Better Cotton (BCI),Recycled Cotton,Polyester",none,none,none,none,matte,opaque,woven,twill,closed,partial,flat,medium,smooth,uniform,none,none,slight,none
+C177411723,1071531,C177402145,,none,none,none,none,matte,opaque,woven,unsure,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C177413357,1071532,C177413332,Cotton Better Cotton (BCI),two_tone,none,none,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,irregular,washed,none,slight,none
+C177413392,1071533,C177413335,"Cotton Better Cotton (BCI),Polyester,Nylon",none,none,none,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C177492427,1071555,C177492249,Nylon,none,none,none,none,low_sheen,opaque,woven,plain_weave,closed,partial,crinkled,medium,smooth,irregular,none,none,none,none
+C177493465,1071556,C177492251,Polyester,multicolor,check_plaid,large,none,matte,opaque,knit,pile_knit,closed,not_visible,textured,coarse,boucle_looped,irregular,none,high,hairy,none
+C177493466,1071554,C177489482,"Polyester,Recycled Wool,Others",heather_melange,geometric,small,none,matte,opaque,woven,twill,closed,clear,flat,medium,slub,uniform,none,none,fuzzy,none
+C177493467,1071553,C177489480,Polyester,two_tone,none,none,none,matte,opaque,coated_leather_like,not_visible,closed,not_visible,brushed,fine,unsure,irregular,none,low,fuzzy,none
+C177493549,1071557,C177493444,Polyester,none,none,none,none,matte,opaque,knit,pile_knit,closed,partial,textured,fine,nubby,uniform,none,medium,fuzzy,none
+C177631974,1071580,C177632320,"Polyester,Spandex",none,none,none,none,low_sheen,opaque,woven,plain_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C177769152,1071624,C177768978,Polyester,none,none,none,none,matte,opaque,coated_leather_like,not_visible,closed,not_visible,textured,fine,unsure,uniform,none,none,none,none
+C177773089,1071625,C177772644,"Cotton Better Cotton (BCI),Spandex",none,none,none,none,matte,opaque,woven,twill,closed,clear,textured,medium,smooth,uniform,none,none,slight,none
+C177774691,1071626,C177774629,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,twill,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C177929364,1071677,C177928798,"Viscose Rayon Conventional,Recycled Polyester",none,none,none,none,matte,semi_sheer,knit,rib,closed,clear,ribbed,fine,smooth,uniform,none,none,none,none
+C178034580,1071690,C178034371,"Cotton Better Cotton (BCI),Polyester",heather_melange,none,small,none,matte,opaque,knit,jersey,closed,clear,flat,medium,nubby,irregular,none,none,slight,none
+C178035323,1071691,C178035201,Nylon,none,none,none,none,low_sheen,opaque,woven,plain_weave,closed,not_visible,crinkled,fine,smooth,irregular,washed,none,none,none
+C178045465,1071692,C178035204,,none,none,none,none,low_sheen,opaque,woven,plain_weave,closed,partial,crinkled,fine,smooth,irregular,none,none,none,none
+C178053953,1070894,C173502776,Cotton Better Cotton (BCI),none,stripe,medium,none,low_sheen,opaque,woven,plain_weave,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C178071609,1071695,C178070085,Recycled Polyester,none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,coarse,smooth,uniform,none,none,fuzzy,none
+C178071637,1071696,C178070086,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C178071638,1071697,C178070087,"Polyester,Recycled Polyester,Wool,Spandex",heather_melange,geometric,large,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,nubby,uniform,none,none,hairy,none
+C178073586,1071698,C178073552,Polyester,none,none,none,none,matte,opaque,knit,pile_knit,closed,not_visible,textured,coarse,nubby,irregular,none,high,hairy,none
+C178084956,1071707,C178084929,"Cotton Better Cotton (BCI),Recycled Polyester",multicolor,check_plaid,large,none,matte,opaque,woven,plain_weave,closed,partial,flat,medium,slub,irregular,none,none,fuzzy,none
+C178086468,1071713,C178086414,,none,none,none,none,matte,opaque,woven,plain_weave,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C178087174,1071716,C178086416,Polyester,none,none,none,satin_sheen,low_sheen,opaque,woven,pile_woven,closed,partial,textured,coarse,smooth,irregular,none,high,hairy,none
+C178154400,1071731,C178154373,Recycled Polyester,none,none,none,none,low_sheen,opaque,knit,pile_knit,closed,not_visible,textured,coarse,nubby,irregular,none,high,fuzzy,none
+C178165716,1071735,C178164896,Recycled Polyester,none,floral,small,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C178166831,1061577,C135700318,Recycled Polyester,none,check_plaid,medium,none,matte,opaque,woven,unsure,closed,not_visible,brushed,coarse,unsure,uniform,none,medium,hairy,none
+C178166837,1065558,C150370119,Recycled Polyester,multicolor,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,brushed,medium,unsure,uniform,none,none,fuzzy,none
+C178175299,1071739,C178175228,"Cotton Better Cotton (BCI),Recycled Polyester,Nylon",heather_melange,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,medium,nubby,uniform,none,none,slight,none
+C178193164,1062564,C141034287,Cotton Better Cotton (BCI),multicolor,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C178295386,1071799,C178295120,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C178297216,1070995,C174689374,"Cotton Better Cotton (BCI),Nylon",none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C178313737,1071805,C178312995,"Recycled Polyester,Wool,Nylon",heather_melange,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,medium,slub,irregular,none,none,fuzzy,none
+C178313764,1071804,C178312994,"Recycled Polyester,Wool",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C178313765,1071803,C178312993,"Recycled Polyester,Nylon,Merino Wool",none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C178343292,1071815,C178342676,,two_tone,check_plaid,small,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C178343989,1071817,C178342678,,two_tone,stripe,small,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C178414474,1071824,C178412963,Polyester,two_tone,check_plaid,medium,none,matte,opaque,woven,quilted,closed,clear,quilted,medium,smooth,uniform,none,none,none,none
+C178416200,1071826,C178416122,,none,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,textured,medium,slub,irregular,none,none,slight,none
+C178429142,1070997,C174689376,"Cotton Better Cotton (BCI),Nylon",none,none,none,none,matte,opaque,woven,twill,closed,clear,textured,fine,smooth,uniform,none,none,slight,none
+C178429695,1071830,C178428428,"Cotton Better Cotton (BCI),Nylon",none,none,none,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C178430101,1071829,C178428427,"Cotton Better Cotton (BCI),Nylon",none,none,none,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C178581976,1071891,C178554467,"Spandex,Nylon,Recycled Polyester",none,none,none,none,matte,opaque,woven,pile_woven,closed,clear,ribbed,medium,unsure,uniform,none,medium,fuzzy,none
+C178588962,1071871,C178554463,"Recycled Polyester,Viscose Rayon Conventional",none,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,none,none,none,none
+C178588993,1071892,C178554469,Cotton Better Cotton (BCI),none,none,none,none,low_sheen,opaque,woven,twill,closed,clear,textured,fine,smooth,uniform,none,none,slight,none
+C178589826,1071893,C178554470,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C178604231,1071047,C175102367,"Wool,Recycled Polyester",none,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,unsure,none,fuzzy,none
+C178610385,1071871,C178554463,"Recycled Polyester,Viscose Rayon Conventional",multicolor,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C178614890,1072026,C178610859,Recycled Polyester,heather_melange,none,none,none,matte,unsure,woven,twill,closed,clear,textured,medium,unsure,uniform,none,none,slight,none
+C178615618,1071881,C178554465,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,unsure,closed,partial,flat,fine,smooth,uniform,washed,none,none,none
+C178615619,1071895,C178554473,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C178631956,1072137,C178631925,"Cotton Better Cotton (BCI),Polyester",multicolor,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,textured,medium,nubby,irregular,none,none,slight,none
+C178705488,1072137,C178631925,"Cotton Better Cotton (BCI),Polyester",multicolor,check_plaid,large,none,matte,opaque,woven,twill,closed,clear,textured,medium,nubby,uniform,washed,none,slight,none
+C178712746,1064895,C148879693,Polyester,two_tone,none,none,none,matte,opaque,coated_leather_like,not_visible,closed,not_visible,textured,fine,unsure,irregular,distressed,low,fuzzy,none
+C178829215,1072170,C178829068,"Cotton Better Cotton (BCI),Spandex",none,none,none,satin_sheen,low_sheen,opaque,woven,unsure,closed,not_visible,flat,fine,smooth,uniform,none,none,slight,none
+C178983337,1072190,C178982396,,none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,medium,smooth,uniform,none,none,slight,none
+C179021656,1072200,C179021304,,two_tone,check_plaid,medium,none,matte,opaque,woven,plain_weave,closed,clear,crinkled,medium,smooth,irregular,washed,none,slight,none
+C179153703,1072214,C179152962,Polyester,multicolor,geometric,large,none,matte,opaque,knit,pile_knit,closed,not_visible,textured,coarse,boucle_looped,irregular,none,high,fuzzy,none
+C179157376,1072219,C179153582,Cotton Better Cotton (BCI),none,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,brushed,medium,smooth,uniform,none,none,fuzzy,none
+C179157712,1072216,C179153580,Nylon,none,none,none,none,matte,opaque,woven,plain_weave,closed,partial,crinkled,fine,smooth,irregular,washed,none,none,none
+C179158911,1072221,C179157341,Viscose Rayon Conventional,none,none,none,none,low_sheen,opaque,woven,twill,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C179161419,1072222,C179158988,,none,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,smooth,uniform,washed,none,slight,none
+C179163015,1072224,C179162284,Cotton Better Cotton (BCI),none,geometric,small,none,matte,opaque,woven,dobby,closed,clear,textured,fine,smooth,irregular,washed,none,slight,none
+C179166278,1072229,C179166229,Cotton Better Cotton (BCI),heather_melange,none,none,none,matte,opaque,woven,twill,closed,clear,flat,medium,slub,irregular,washed,none,slight,none
+C179253530,1072234,C179253265,,none,none,none,none,matte,opaque,woven,plain_weave,closed,partial,textured,fine,smooth,uniform,none,none,none,none
+C179259752,1072236,C179252409,Cotton Better Cotton (BCI),none,none,none,none,low_sheen,opaque,woven,pile_woven,closed,clear,ribbed,medium,smooth,uniform,none,medium,fuzzy,none
+C179361802,1072259,C179361197,Cotton Better Cotton (BCI),none,floral,medium,none,matte,semi_sheer,woven,dobby,small_openings,clear,textured,fine,smooth,irregular,none,none,none,none
+C179366445,1072260,C179366418,TENCEL Lyocell,none,none,none,satin_sheen,low_sheen,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C179366618,1072261,C179366491,TENCEL Lyocell,none,none,none,none,low_sheen,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C179377012,1072262,C179376305,Nylon,none,none,none,none,low_sheen,opaque,woven,plain_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C179380787,1072263,C179376308,Polyester,none,none,none,none,matte,unsure,coated_leather_like,not_visible,closed,not_visible,brushed,fine,unsure,uniform,none,low,fuzzy,none
+C179391055,1072264,C179390766,"Cotton Better Cotton (BCI),Modal,Spandex",none,none,none,none,matte,opaque,woven,pile_woven,closed,clear,ribbed,medium,unsure,uniform,none,medium,fuzzy,none
+C179498380,1072284,C179498355,"Cotton Better Cotton (BCI),Viscose Rayon Conventional",none,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C179498663,1072285,C179498487,,none,check_plaid,small,none,matte,unsure,woven,dobby,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C179499516,1072286,C179499090,Cotton Better Cotton (BCI),none,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C179500239,1072288,C179500089,"Cotton Better Cotton (BCI),Spandex",none,check_plaid,medium,none,matte,semi_sheer,woven,plain_weave,closed,clear,crinkled,fine,smooth,irregular,washed,none,none,none
+C179500547,1072289,C179499092,Cotton Better Cotton (BCI),none,check_plaid,medium,none,matte,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C179500634,1072290,C179500091,"Viscose Rayon Conventional,Nylon",none,none,none,none,low_sheen,semi_sheer,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C179503415,1072291,C179503349,"Cotton Better Cotton (BCI),Recycled Polyester",none,none,none,none,matte,unsure,woven,dobby,closed,partial,textured,fine,smooth,uniform,none,none,none,none
+C1817322,1006011,C1201205,Cotton,heather_melange,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C18364518,267385|1050462|1055486|1057396|1049008,C0/58320.35840.25248.65017|Material,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C18364565,1055689|1050394|1050345|1004897,C123108465,"Cotton Better Cotton (BCI),Spandex",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C19085159,1018124,C11314056,"Metallic,Cotton Better Cotton (BCI)",multicolor,stripe,medium,lurex_yarn_shine,low_sheen,unsure,woven,plain_weave,small_openings,clear,crinkled,fine,smooth,irregular,none,none,none,none
+C22484286,1070197|1018899,C169906126,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C23543087,1005891,C1035234,Polyester,none,none,none,none,matte,opaque,nonwoven,unsure,closed,not_visible,brushed,fine,unsure,uniform,none,low,fuzzy,none
+C23568132,1063468|1054541|1063660|57295,C143672536,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C23568219,1050442|279032,C101901536,"Cotton Better Cotton (BCI),Polyester Recycled Traceable,Spandex",none,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,fine,smooth,uniform,none,none,slight,none
+C23568279,237712|1071607|1071608,C0/58320.35840.50704.13930|Material,"Cotton Better Cotton (BCI),Polyester",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C23569340,1057367|269357,C127778311,Cotton USCTP Tracked US Cotton,none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C23585613,1061201|1061251|251190,C134177314,"Cotton Better Cotton (BCI),Cotton USCTP US Protocol Cotton",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C23588819,1050413|1009662,C101779296,"Cotton USCTP Tracked US Cotton,Recycled Polyester",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C23590684,1055501|219885,C122724157,"Nylon,Spandex,Viscose Rayon Conventional",heather_melange,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C32508074,1054744|1041681|1039477|1038457|1029555|1054742|1068439,C119882897,"Spandex,TENCEL Lyocell,Polyester Recycled Traceable",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C32509275,1054740|1039476|1054741|1038458|1029551|1054739,C119880947,"TENCEL Lyocell,Spandex",unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,not_visible,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure
+C329271,999999872,C5905322,,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,not_visible,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure
+C3393439,1063468|1054541|1063660|57295,C143672536,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C3393938,1051505|183756,C105634065,"Cotton Better Cotton (BCI),Spandex",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C3394380,1049830|222090,C100371959,"Spandex,Cotton Better Cotton (BCI),Recycled Polyester",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C3394744,1050580|224928,C102407158,"Recycled Polyester,Cotton USCTP Tracked US Cotton",heather_melange,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,washed,none,slight,none
+C3394791,1068375|236086|1068374,C160617461,"Cotton Better Cotton (BCI),Spandex",none,none,none,none,matte,opaque,knit,pique,closed,clear,textured,medium,smooth,uniform,none,none,none,none
+C3396086,237712|1071607|1071608,C0/58320.35840.50704.13930|Material,"Cotton Better Cotton (BCI),Polyester",none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C3396247,1070519|241854,C171285938,"Cotton Better Cotton (BCI),Polyester,Spandex,Metallic",none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,fine,smooth,uniform,none,none,slight,none
+C3396530,1061201|1061251|251190,C134177314,"Cotton Better Cotton (BCI),Cotton USCTP US Protocol Cotton",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C34050574,1054895|1059323|1047382|281031,C120805988,"Recycled Polyester,Spandex",none,none,none,none,matte,opaque,woven,plain_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C34242722,1057508|302233,C129220053,"Polyester Recycled Traceable,Polyester,Spandex",none,none,none,none,low_sheen,unsure,woven,ripstop,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C3426625,1057604|1062003|254414,C129457687,"Spandex,Viscose Rayon Conventional",none,none,none,none,matte,unsure,unsure,unsure,closed,not_visible,flat,unsure,unsure,uniform,none,none,none,none
+C3426695,1070883|267412,C173326229,"Cotton Better Cotton (BCI),Polyester",none,none,none,none,matte,opaque,knit,terry_loop,closed,clear,textured,fine,smooth,uniform,none,low,fuzzy,none
+C3427738,1054889|1054364|265400|1054365|1070981,C120784437,"Viscose Rayon Conventional,Spandex",none,none,none,none,matte,opaque,nonwoven,unsure,closed,not_visible,flat,fine,unsure,uniform,none,none,slight,none
+C3427746,267385|1050462|1057396|1055486|1049008,C0/58320.35840.25248.65017|Material,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C34608393,1057279|1064995|274462|1036850|1064998,C126974484,"Spandex,TENCEL Modal,Polyester Recycled Traceable",none,none,none,satin_sheen,low_sheen,unsure,woven,plain_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C34611299,1043480|1043926|1033968|1033960|297919|1070943,C75980818,Recycled Polyester,none,none,none,none,low_sheen,opaque,coated_leather_like,unsure,closed,not_visible,textured,medium,unsure,irregular,distressed,none,none,none
+C34612221,1054535|1054808|1047895|1062271|1054842|1044414|1062106|1062981|1054843|1062107|1044464|1054848|1043139|1062272|1056993|1044461|1045031|1045575|1044462|1048270|1056990|1044463|300962,C119016238,"Cotton Better Cotton (BCI),Recycled Polyester,Spandex",none,none,none,none,matte,unsure,woven,plain_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C34612956,1054536|302086,C119016240,"Cotton Better Cotton (BCI),Recycled Polyester,Spandex",none,none,none,satin_sheen,low_sheen,opaque,unsure,unsure,closed,not_visible,flat,fine,unsure,uniform,none,none,none,none
+C34615717,1065332|303695|1054532,C149769295,"Cotton Better Cotton (BCI),Spandex,Recycled Polyester",none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C34615901,1047599|1057668|1065328|1062100|1057671|1065365|1057669|1057672|1062101|303909|1054531,C88789024,"Cotton Better Cotton (BCI),Spandex,Recycled Polyester",none,none,none,satin_sheen,low_sheen,unsure,unsure,unsure,closed,not_visible,flat,fine,unsure,uniform,none,none,none,none
+C34619882,1070639|261286|1061083|1061160,C172251576,"Nylon Conventional 6,Nylon Recycled 6",unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,not_visible,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure
+C34620462,1070994|269607|1041746|1070684,C174656637,Recycled Polyester,none,none,none,none,matte,opaque,woven,plain_weave,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C34621377,1071486|281845|1044188,C177285138,"Spandex,Recycled Polyester",none,none,none,satin_sheen,low_sheen,unsure,unsure,unsure,closed,not_visible,flat,fine,unsure,uniform,none,none,none,none
+C34638654,121117|1039151|1056062|1056060|1056061,C0/58320.35840.10016.3830|Material,"Nylon,Spandex",none,geometric,small,satin_sheen,high,semi_sheer,knit,mesh,small_openings,clear,flat,fine,smooth,uniform,none,none,none,none
+C34641871,1050656|1043830|1063820|1069454|184386,C102975186,"Chinese Linen,TENCEL Lyocell",heather_melange,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C34645946,1057692|213943,C129957831,"Spandex,Nylon",unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,not_visible,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure
+C34646787,1048316|1044311|1062187|227664,C93433710,"Nylon Conventional 66,Lycra",none,none,none,none,matte,opaque,woven,plain_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C34746287,1038814|1064631|1038816|1036693|265148,C60325680,"Nylon Recycled Traceable,Spandex",none,none,none,none,low_sheen,unsure,unsure,unsure,unsure,not_visible,flat,fine,unsure,uniform,none,none,none,none
+C35821503,1044194|1062207|1030806,C80346640,Recycled Polyester,none,none,none,none,matte,unsure,unsure,unsure,closed,not_visible,flat,fine,unsure,uniform,none,none,none,none
+C35821769,1057697|287252,C129969796,"Spandex,Polyester Recycled Traceable",unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,not_visible,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure
+C35956707,1044223|1057384|303133,C80558777,"Recycled Polyester,Lenzing Ecovero",none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C45030345,1035463|1050439,C44524175,"Polyester,Spandex",none,none,none,none,matte,unsure,unsure,unsure,closed,not_visible,crinkled,medium,smooth,irregular,none,none,none,none
+C46720787,1053479|1035079,C113911764,"Cotton Better Cotton (BCI),Polyester Recycled Traceable",none,stripe,small,none,matte,unsure,knit,rib,small_openings,clear,ribbed,fine,smooth,uniform,none,none,none,none
+C47248222,1036466|1070952,C47247473,Organic Cotton,none,geometric,small,none,matte,semi_sheer,knit,rib,small_openings,clear,ribbed,fine,smooth,uniform,none,none,slight,none
+C50461812,1057382|291454,C127956505,"Spandex,Nylon",none,none,none,satin_sheen,low_sheen,opaque,unsure,unsure,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C50463185,1065392|296001|1042447,C149942286,Cotton Better Cotton (BCI),heather_melange,none,none,none,matte,unsure,knit,jersey,closed,partial,flat,fine,smooth,uniform,none,none,slight,none
+C50489271,1054898|1048381|1066127|208922|1067513,C120864356,Linen Masters of Flax Fibre (MFF),heather_melange,none,none,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,slub,irregular,washed,none,slight,none
+C60941515,1066066|1066047|1066048|280111,C152805643,"Recycled Polyester,Spandex",unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,not_visible,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure
+C60941582,1059276|1057517|1057516|294134,C132295251,"Spandex,Nylon",unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,not_visible,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure
+C60944554,1065965|1045276|300902,C152139818,"Nylon Conventional 6,Spandex,Cotton In Conversion Organic",none,none,none,satin_sheen,low_sheen,unsure,woven,unsure,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C60958143,1050780|1032446,C103746790,"Recycled Nylon,Nylon Recycled 6",none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C60973271,1058556|1054853|1062109|1037427|1054927|1058555|1042545|1046302|1062103|1049335|1047853,C130416107,"Cotton Better Cotton (BCI),Spandex",unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,not_visible,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure
+C6139561,1054491|1008102,C118995561,"Spandex,Polyester Recycled Traceable",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C63279849,1018114,C11252769,"Cotton Better Cotton (BCI),Polyester",two_tone,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C66535926,1068388|1037152,C160635803,Cotton Better Cotton (BCI),none,none,none,satin_sheen,low_sheen,unsure,unsure,unsure,closed,not_visible,flat,fine,unsure,uniform,none,none,none,none
+C74560265,1046971|1046955|1044928|1044516|1065193|1044879|1046953|1046954|1048810|1047383,C85861774,"TENCEL Modal,Spandex",none,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,fine,smooth,uniform,none,none,none,none
+C8524358,1050394|1055689|1050345|1004897,C101764328,"Cotton Better Cotton (BCI),Spandex",none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C8526751,1005918,C1100343,Cotton,none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C8533962,1067175|269742,C156151944,"Polyester,Cotton USCTP Tracked US Cotton",heather_melange,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C8538051,279377|1061124,C0/58320.35840.57953.15556|Material,Cotton Better Cotton (BCI),none,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C8539646,1069721|1067766|1070517|1070550|1070483|1062079|284050|1061500,C168271615,"Cotton Better Cotton (BCI),Spandex",none,none,none,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C8547617,1063814|288692,C144479826,"Polyester,Cotton USCTP Tracked US Cotton",heather_melange,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C8555009,1055689|1050345|1050394|1004897,C123108465,"Cotton Better Cotton (BCI),Spandex",none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C8555081,1050542|1050541|1004911,C102291547,"Cotton Better Cotton (BCI),Spandex",none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,slight,none
+C8652863,1005874,C1029931,"Cotton,Polyester,Spandex",heather_melange,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C8654140,1005997,C1183356,"Polyester,Spandex,Cotton Better Cotton (BCI)",none,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C8654395,1005876,C1029933,"Polyester,Spandex,Viscose Rayon Conventional",none,geometric,small,none,matte,unsure,knit,pique,closed,clear,textured,fine,smooth,uniform,none,none,slight,none
+C8657756,1005923,C1102137,Cotton,none,none,none,none,matte,unsure,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C87472465,1070419|1042072|1049650|1062113|1057249|1070418,C170662392,"Spandex,TENCEL Lyocell",none,none,none,none,matte,opaque,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C87474045,1042412|1061661|1054943,C71303112,"Spandex,Cotton Better Cotton (BCI)",none,none,none,none,matte,opaque,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C87474910,1054746|1031047,C119882899,Cotton USCTP Tracked US Cotton Supima,heather_melange,none,none,none,matte,unsure,knit,unsure,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C87477227,304519|1054537,C0/58320.35840.24560.8077|Material,"Polyester,Spandex,Cotton Better Cotton (BCI)",heather_melange,none,none,none,matte,opaque,knit,jersey,closed,clear,flat,fine,smooth,uniform,none,none,slight,none
+C87478316,1061060|1039248|1070189|1061059|1070526,C133371560,"Cotton Better Cotton (BCI),Recycled Polyester,Spandex",none,none,none,satin_sheen,low_sheen,opaque,woven,twill,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C87482657,1049161|1028152,C96841429,"Elastane,Nylon Recycled Traceable",none,none,none,none,matte,unsure,knit,rib,closed,clear,ribbed,medium,smooth,uniform,none,none,none,none
+C87490823,1057496|1036492|1057497,C129194877,"Nylon 6,Spandex",none,none,none,satin_sheen,medium,opaque,woven,satin_weave,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C88548393,1067562|296894,C157954342,Polyester Recycled Traceable,none,none,none,satin_sheen,low_sheen,unsure,unsure,unsure,closed,partial,ribbed,fine,smooth,uniform,none,none,none,none
+C88550016,272687|1054917,C0/58320.35840.51024.62788|Material,Polyester Recycled Traceable,none,none,none,none,matte,opaque,woven,plain_weave,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C88553656,1054544|1043218,C119182908,"Nylon,Spandex",none,none,none,none,low_sheen,opaque,unsure,unsure,closed,not_visible,flat,fine,unsure,uniform,none,none,none,none
+C88561562,1040224|1064630|1064629,C65379455,"TENCEL Modal,Polyester Recycled Traceable,Spandex,Cotton Better Cotton (BCI)",none,none,none,none,matte,unsure,woven,plain_weave,closed,clear,flat,fine,smooth,uniform,none,none,none,none
+C88973511,1069435|295702,C167385046,"Nylon Recycled 6,Nylon Conventional 6,Spandex",none,none,none,satin_sheen,low_sheen,unsure,unsure,unsure,closed,not_visible,flat,fine,smooth,uniform,none,none,none,none
+C90820506,1047852|1062104|1058558|1062105,C90819759,"Cotton Better Cotton (BCI),Spandex",unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure,not_visible,unsure,unsure,unsure,unsure,unsure,unsure,unsure,unsure
+C96694211,1057380|1046972|1067948,C127928784,Cotton Better Cotton (BCI),none,none,none,none,matte,unsure,knit,jersey,closed,partial,flat,fine,smooth,uniform,none,none,none,none
+C159946240,1068143,C159946211,"Nylon Conventional 6,Spandex",none,floral,medium,none,matte,sheer,knit,lace,open,clear,textured,medium,smooth,irregular,none,none,none,none
