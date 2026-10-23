@@ -13,6 +13,9 @@ The app reads only `deploy/` (about 37 MB): `catalog.csv`, `fashionclip_attribut
 .venv/bin/python utils/prepare_deploy.py
 ```
 
+`utils/embed_cropped.py --cropped <dir>` re-embeds the images from swatch-only crops (label removed) for both models,
+writes copies of the masters to `data/cropped_embedding/` and updates the image vectors and thumbnails in `deploy/`.
+
 The other scripts in `utils/` produced the FashionSigLIP attributes / embeddings
 (`generate_attribute.py`, `generate_image_embedding.py`, `combine_fashionclip.py`) and need the repo.
 
