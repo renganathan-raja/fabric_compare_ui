@@ -90,6 +90,24 @@ def catalog_match(name: str, data: bytes) -> str | None:
 
 IMAGE_LABEL = next(iter(S.MODELS))  # first model at the image level: lists every catalog image
 
+
+def identity(image_id: str) -> dict[str, str]:
+    """image_id, rd_number(s), material_id and composition of a catalog image as key -> value."""
+    meta = S.load_catalog().get(image_id, {})
+    rds = [r for r in meta.get("rd_number", "").split("|") if r]
+    parts = [c.strip() for c in meta.get("composition", "").split(",") if c.strip()]
+    return {
+        "image_id": image_id,
+        "rd_number": ", ".join(rds) or "—",
+        "material_id": meta.get("material_id") or "—",
+        "composition": ", ".join(parts) or "—",
+    }
+
+
+def identity_markdown(image_id: str) -> str:
+    """The identity as bold-key lines (compact, for result cards)."""
+    return "  \n".join(f"**{key}:** {value}" for key, value in identity(image_id).items())
+
 # ---- sidebar: query ------------------------------------------------------------------------
 
 st.sidebar.title("Query")
@@ -232,10 +250,7 @@ def cards(results, corpus: S.Corpus, shared: set[str], columns: int = 5) -> None
             if image is not None:
                 slot.image(image, width="stretch")
             mark = "🟢 " if image_id in shared else ""
-            slot.caption(
-                f"{mark}**{image_id}** · {score:.2f}  \n"
-                f"{meta.get('material_id', '')} · {meta.get('composition', '') or '—'}"
-            )
+            slot.caption(f"{mark}score **{score:.2f}**  \n{identity_markdown(image_id)}")
 
 
 def show_query() -> None:
@@ -247,11 +262,7 @@ def show_query() -> None:
         if path is not None:
             cols[0].image(str(path), caption="Query", width="stretch")
         if query["kind"] == "catalog":
-            meta = corpus_for(IMAGE_LABEL).meta[query["image_id"]]
-            cols[0].markdown(
-                f"**Composition:** {meta.get('composition') or '—'}  \n"
-                f"**Material:** {meta.get('material_id') or '—'}"
-            )
+            cols[0].markdown(identity_markdown(query["image_id"]))
         else:
             cols[0].caption("Composition: not in an uploaded photo (catalog metadata only).")
     if query["attrs"]:
@@ -294,7 +305,6 @@ with tab_search:
 def level_results(results, corpus: S.Corpus, shared: set[str], query_attrs: dict, score_name: str = "cosine") -> None:
     """Top results as image + cosine score + composition + this model's attributes (✓ = same as
     the query's attribute from the same model). `corpus.meta` must hold that model's attributes."""
-    catalog = corpus_for(IMAGE_LABEL).meta
     for image_id, score in results:
         meta = corpus.meta[image_id]
         img_col, info_col = st.columns([1, 2])
@@ -302,10 +312,7 @@ def level_results(results, corpus: S.Corpus, shared: set[str], query_attrs: dict
         if image is not None:
             img_col.image(image, width="stretch")
         mark = "🟢 " if image_id in shared else ""
-        info_col.markdown(
-            f"{mark}**{image_id}** · {score_name} **{score:.3f}**  \n"
-            f"{catalog.get(image_id, {}).get('composition') or '—'}"
-        )
+        info_col.markdown(f"{mark}{score_name} **{score:.3f}**  \n{identity_markdown(image_id)}")
         rows = []
         for attr in checked:
             wanted = query_attrs.get(attr, "")
@@ -401,14 +408,8 @@ with tab_compare:
         attrs_b: dict[str, str] = {}
         if query["kind"] == "catalog":
             qid = query["image_id"]
-            meta = catalog_meta[qid]
             path = S.image_path(qid)
-            rds = fc_rds.get(qid) or [meta.get("rd_number", "")]
-            info = (
-                f"**image_id:** {qid}  \n**rd_number:** {', '.join(r for r in rds if r) or '—'}  \n"
-                f"**material_id:** {meta.get('material_id') or '—'}  \n"
-                f"**composition:** {meta.get('composition') or '—'}"
-            )
+            info = identity_markdown(qid)
             attrs_b = fc_attrs.get(qid, {})
             if query.get("from_upload"):
                 info += (
