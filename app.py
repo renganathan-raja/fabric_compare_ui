@@ -567,14 +567,18 @@ with tab_human:
         votes = sorted(saved.values(), key=lambda v: v["time"], reverse=True)
         counts = pd.Series([v["vote"] for v in votes]).value_counts()
         st.markdown("  ·  ".join(f"**{name}**: {counts.get(name, 0)}" for name in ("A", "B", "tie")) + f"  ·  {len(votes)} voted")
-        st.dataframe(
-            pd.DataFrame(votes)[["time", "query_id", "level", "method", "k", "overlap", "vote"]],
-            hide_index=True, width="stretch",
-        )
         def vote_name(v):
             return f"{v['query_id']} · {v['level']} · {v['method']} · voted {v['vote']}"
 
-        chosen = st.selectbox("Review a vote", votes, format_func=vote_name, key="human_pick")
+        query_ids = list(dict.fromkeys(v["query_id"] for v in votes))
+        picked = st.selectbox("Query", query_ids, key="human_query")
+        of_query = [v for v in votes if v["query_id"] == picked]
+        chosen = of_query[0]
+        if len(of_query) > 1:
+            chosen = st.selectbox(
+                "Level · method", of_query, format_func=lambda v: f"{v['level']} · {v['method']} · voted {v['vote']}",
+                key=f"human_setting_{picked}",
+            )
         ids_a, ids_b = chosen["results_a"].split("|"), chosen["results_b"].split("|")
         head, body = st.columns([1, 4])
         if chosen["query_kind"] == "catalog":
