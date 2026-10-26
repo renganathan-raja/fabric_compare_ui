@@ -15,6 +15,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+import requests
 import streamlit as st
 from PIL import Image
 
@@ -24,6 +25,62 @@ APP_DIR = Path(__file__).resolve().parent
 VOTES_CSV = APP_DIR / "votes.csv"
 
 st.set_page_config(page_title="Fabric Discovery – Search & Compare", layout="wide")
+
+
+# ---- vote storage: shared Google Sheet (via an Apps Script web app) when set in secrets, else votes.csv
+
+
+def votes_webhook() -> tuple[str, str] | None:
+    """(web app url, shared secret) from st.secrets, or None when no sheet is set up."""
+    try:
+        return st.secrets["votes_webhook_url"], st.secrets["votes_webhook_secret"]
+    except (KeyError, FileNotFoundError, st.errors.StreamlitSecretNotFoundError):
+        return None
+
+
+@st.cache_data(ttl=15, show_spinner=False)
+def _sheet_votes(url: str, secret: str) -> list[dict[str, str]]:
+    response = requests.get(url, params={"secret": secret}, timeout=20)
+    response.raise_for_status()
+    rows = response.json()
+    if isinstance(rows, dict):  # the script reports errors as {"error": ...}
+        raise RuntimeError(rows.get("error", "unexpected reply"))
+    return [{k: str(v) for k, v in row.items()} for row in rows if row.get("query_id")]
+
+
+def load_votes() -> list[dict[str, str]]:
+    """Every saved vote, oldest first (from the sheet if configured, falling back to votes.csv)."""
+    webhook = votes_webhook()
+    if webhook is not None:
+        try:
+            return _sheet_votes(*webhook)
+        except Exception as exc:
+            st.warning(f"Could not read the Google Sheet ({type(exc).__name__}); showing local votes only.")
+    return S.load_votes(VOTES_CSV)
+
+
+def save_vote(row: dict[str, str]) -> bool:
+    """Append a vote to the sheet (or votes.csv when no sheet is set up). False if the sheet failed."""
+    webhook = votes_webhook()
+    if webhook is None:
+        S.log_vote(VOTES_CSV, row)
+        return True
+    url, secret = webhook
+    try:
+        response = requests.post(
+            url, timeout=20,
+            json={"secret": secret, "fields": list(S.VOTE_FIELDS), "row": [row.get(f, "") for f in S.VOTE_FIELDS]},
+        )
+        response.raise_for_status()
+        reply = response.json()
+        if reply.get("error"):
+            raise RuntimeError(reply["error"])
+    except Exception as exc:
+        S.log_vote(VOTES_CSV, row)
+        st.error(f"Google Sheet write failed ({type(exc).__name__}: {exc}); saved to local votes.csv instead.")
+        return False
+    _sheet_votes.clear()
+    return True
 
 
 # ---- cached resources ----------------------------------------------------------------------
@@ -120,7 +177,7 @@ if source == "Upload image":
     upload = st.sidebar.file_uploader("Fabric image", type=["jpg", "jpeg", "png", "webp"])
 elif source == "Pick from catalog":
     voted_ids = {}
-    for v in S.load_votes(VOTES_CSV):
+    for v in load_votes():
         voted_ids.setdefault(v["query_id"], set()).add(v["vote"])
     catalog_id = st.sidebar.selectbox(
         "Image id", corpus_for(IMAGE_LABEL).ids,
@@ -471,7 +528,7 @@ with tab_compare:
                 f"🟢 returned by both models ({len(shared)}/{top}): " + (", ".join(sorted(shared)) or "none")
                 + ". Raw scores differ in scale between models."
             )
-            previous = S.latest_votes(S.load_votes(VOTES_CSV)).get((query["key"], level, method))
+            previous = S.latest_votes(load_votes()).get((query["key"], level, method))
             options = ["A", "B", "tie"]
             vote = st.radio(
                 "Which result list is better?", options, horizontal=True,
@@ -480,8 +537,7 @@ with tab_compare:
             if previous:
                 st.caption(f"Already voted {previous['vote']} on {previous['time']}; saving again replaces it.")
             if st.button("Save vote", disabled=vote is None):
-                S.log_vote(
-                    VOTES_CSV,
+                saved_ok = save_vote(
                     {
                         "time": datetime.now(timezone.utc).isoformat(timespec="seconds"),
                         "query_id": query["key"],
@@ -498,8 +554,9 @@ with tab_compare:
                         "vote": vote or "",
                     },
                 )
-                st.success(f"Saved to {VOTES_CSV.name}")
-                st.rerun()
+                if saved_ok:
+                    st.toast("Vote saved", icon="✅")
+                    st.rerun()
 
 
 @st.cache_data(show_spinner="Scoring…")
@@ -560,7 +617,7 @@ with tab_human:
         "Every saved vote with the query and the two result lists exactly as they were shown. "
         "Pick one to review it, change the vote, or reload it in Compare."
     )
-    saved = S.latest_votes(S.load_votes(VOTES_CSV))
+    saved = S.latest_votes(load_votes())
     if not saved:
         st.info("No votes yet. Vote on the Compare tab and it appears here.")
     else:
@@ -601,9 +658,7 @@ with tab_human:
         )
         left, right = st.columns(2)
         if left.button("Save changed vote", disabled=new_vote == chosen["vote"]):
-            S.log_vote(
-                VOTES_CSV,
-                {**chosen, "time": datetime.now(timezone.utc).isoformat(timespec="seconds"), "vote": new_vote},
-            )
-            st.rerun()
+            if save_vote({**chosen, "time": datetime.now(timezone.utc).isoformat(timespec="seconds"), "vote": new_vote}):
+                st.toast("Vote saved", icon="✅")
+                st.rerun()
         right.button("Load in Compare", on_click=load_in_compare, args=(chosen,))

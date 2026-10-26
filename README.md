@@ -33,4 +33,16 @@ so no API key and no torch). Memory use is about 300 MB.
 1. Put the project in a GitHub repo (private is fine): `app.py`, `search.py`, `requirements.txt`,
    `deploy/`. `.gitignore` already leaves out the raw `data/`, `.venv/` and `votes.csv`.
 2. share.streamlit.io -> New app -> pick the repo, branch, main file `app.py`; Advanced settings -> Python 3.12.
-3. `votes.csv` is written to the app's disk, which is wiped on every restart.
+3. Votes: without the secrets below they go to `votes.csv` on the app's disk, which is wiped on every
+   restart. To keep them, store them in a Google Sheet (no Google Cloud needed):
+   - Create an empty Google Sheet -> Extensions -> Apps Script -> paste `utils/votes_apps_script.js`.
+   - Project Settings (gear) -> Script properties -> add `SECRET` = a long random string.
+   - Deploy -> New deployment -> type **Web app**, Execute as **Me**, Who has access **Anyone** -> Deploy,
+     authorise when asked, copy the web app URL (ends in `/exec`).
+   - Streamlit Cloud -> app -> Settings -> Secrets:
+     ```toml
+     votes_webhook_url = "https://script.google.com/macros/s/<id>/exec"
+     votes_webhook_secret = "<the same string as SECRET>"
+     ```
+   After editing the script, use Deploy -> Manage deployments -> edit -> New version, or the URL keeps
+   serving the old code.
