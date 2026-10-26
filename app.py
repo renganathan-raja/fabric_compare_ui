@@ -42,7 +42,10 @@ def votes_webhook() -> tuple[str, str] | None:
 def _sheet_votes(url: str, secret: str) -> list[dict[str, str]]:
     response = requests.get(url, params={"secret": secret}, timeout=20)
     response.raise_for_status()
-    rows = response.json()
+    try:
+        rows = response.json()
+    except ValueError:  # an HTML page: sign-in wall, wrong URL or an unauthorised script
+        raise RuntimeError(f"not JSON from {response.url[:60]}: {response.text[:80]!r}") from None
     if isinstance(rows, dict):  # the script reports errors as {"error": ...}
         raise RuntimeError(rows.get("error", "unexpected reply"))
     return [{k: str(v) for k, v in row.items()} for row in rows if row.get("query_id")]
@@ -55,7 +58,7 @@ def load_votes() -> list[dict[str, str]]:
         try:
             return _sheet_votes(*webhook)
         except Exception as exc:
-            st.warning(f"Could not read the Google Sheet ({type(exc).__name__}); showing local votes only.")
+            st.warning(f"Could not read the Google Sheet ({type(exc).__name__}: {exc}); showing local votes only.")
     return S.load_votes(VOTES_CSV)
 
 
@@ -72,7 +75,10 @@ def save_vote(row: dict[str, str]) -> bool:
             json={"secret": secret, "fields": list(S.VOTE_FIELDS), "row": [row.get(f, "") for f in S.VOTE_FIELDS]},
         )
         response.raise_for_status()
-        reply = response.json()
+        try:
+            reply = response.json()
+        except ValueError:
+            raise RuntimeError(f"not JSON: {response.text[:80]!r}") from None
         if reply.get("error"):
             raise RuntimeError(reply["error"])
     except Exception as exc:
