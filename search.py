@@ -265,6 +265,25 @@ def log_vote(path: Path, row: Mapping[str, str]) -> None:
         writer.writerow(row)
 
 
+VOTE_FIELDS = (
+    "time", "query_id", "query_kind", "level", "method", "k", "model_a", "model_b",
+    "results_a", "results_b", "overlap", "checked_attributes", "vote",
+)
+
+
+def load_votes(path: Path) -> list[dict[str, str]]:
+    """Every saved vote, oldest first (empty when nothing was voted yet)."""
+    if not path.exists():
+        return []
+    with path.open(encoding="utf-8", newline="") as handle:
+        return [row for row in csv.DictReader(handle) if row.get("query_id")]
+
+
+def latest_votes(votes: Sequence[Mapping[str, str]]) -> dict[tuple[str, str, str], dict[str, str]]:
+    """The newest vote per (query, level, method); a re-vote replaces the earlier one in this view."""
+    return {(v["query_id"], v["level"], v["method"]): dict(v) for v in votes}
+
+
 # ---- retrieval scorecard -------------------------------------------------------------------
 
 

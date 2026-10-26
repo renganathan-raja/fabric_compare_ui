@@ -150,3 +150,17 @@ def test_every_listed_method_runs():
                 corpus, level, method, q, k=2, query_attrs={"pattern": "stripe"}, checked=["pattern"]
             )
             assert res and name
+
+
+def test_votes_roundtrip_and_latest_wins(tmp_path):
+    path = tmp_path / "votes.csv"
+    assert S.load_votes(path) == []
+    base = dict.fromkeys(S.VOTE_FIELDS, "x") | {"query_id": "id:1", "level": "L", "method": "M"}
+    S.log_vote(path, base | {"vote": "A", "time": "1"})
+    S.log_vote(path, base | {"vote": "B", "time": "2"})
+    S.log_vote(path, base | {"query_id": "id:2", "vote": "tie", "time": "3"})
+    votes = S.load_votes(path)
+    assert len(votes) == 3
+    latest = S.latest_votes(votes)
+    assert latest[("id:1", "L", "M")]["vote"] == "B"
+    assert len(latest) == 2

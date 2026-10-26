@@ -119,7 +119,15 @@ text_query = ""
 if source == "Upload image":
     upload = st.sidebar.file_uploader("Fabric image", type=["jpg", "jpeg", "png", "webp"])
 elif source == "Pick from catalog":
-    catalog_id = st.sidebar.selectbox("Image id", corpus_for(IMAGE_LABEL).ids)
+    voted_ids = {}
+    for v in S.load_votes(VOTES_CSV):
+        voted_ids.setdefault(v["query_id"], set()).add(v["vote"])
+    catalog_id = st.sidebar.selectbox(
+        "Image id", corpus_for(IMAGE_LABEL).ids,
+        format_func=lambda i: f"{i} (voted)" if f"id:{i}" in voted_ids else i,
+    )
+    if f"id:{catalog_id}" in voted_ids:
+        st.sidebar.caption("✓ voted – see the Human evaluation tab")
 else:
     text_query = st.sidebar.text_input("Describe the fabric", "woven twill fabric, stripe pattern")
 
@@ -274,7 +282,7 @@ def show_query() -> None:
         )
 
 
-tab_search, tab_compare, tab_score = st.tabs(["Search", "Compare", "Scorecard"])
+tab_search, tab_compare, tab_score, tab_human = st.tabs(["Search", "Compare", "Scorecard", "Human evaluation"])
 base_names = list(S.BASE_MODELS)
 
 
@@ -463,22 +471,35 @@ with tab_compare:
                 f"🟢 returned by both models ({len(shared)}/{top}): " + (", ".join(sorted(shared)) or "none")
                 + ". Raw scores differ in scale between models."
             )
-            vote = st.radio("Which result list is better?", ["A", "B", "tie"], horizontal=True, index=None)
+            previous = S.latest_votes(S.load_votes(VOTES_CSV)).get((query["key"], level, method))
+            options = ["A", "B", "tie"]
+            vote = st.radio(
+                "Which result list is better?", options, horizontal=True,
+                index=options.index(previous["vote"]) if previous else None, key=f"vote_{query['key']}_{level}_{method}",
+            )
+            if previous:
+                st.caption(f"Already voted {previous['vote']} on {previous['time']}; saving again replaces it.")
             if st.button("Save vote", disabled=vote is None):
                 S.log_vote(
                     VOTES_CSV,
                     {
                         "time": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                        "query": query["key"],
-                        "model_a": f"{label_a} | {method}",
-                        "model_b": f"{label_b} | {method}",
+                        "query_id": query["key"],
+                        "query_kind": query["kind"],
+                        "level": level,
+                        "method": method,
                         "k": str(top),
+                        "model_a": label_a,
+                        "model_b": label_b,
+                        "results_a": "|".join(i for i, _ in out_a[0]),
+                        "results_b": "|".join(i for i, _ in out_b[0]),
                         "overlap": str(len(shared)),
                         "checked_attributes": "|".join(checked),
                         "vote": vote or "",
                     },
                 )
                 st.success(f"Saved to {VOTES_CSV.name}")
+                st.rerun()
 
 
 @st.cache_data(show_spinner="Scoring…")
@@ -510,3 +531,75 @@ with tab_score:
     st.caption(f"{n_chosen} queries from {n_pool} images whose composition is shared by another image.")
     st.dataframe(table.style.format({c: "{:.3f}" for c in table.columns[1:]}), width="stretch")
     st.bar_chart(table.drop(columns="level"), horizontal=True)
+
+
+def load_in_compare(vote: dict[str, str]) -> None:
+    """Callback: make a saved vote's query the active one and set Compare to its level and method."""
+    if vote["query_kind"] == "catalog":
+        image_id = vote["query_id"].removeprefix("id:")
+        meta = corpus_for(IMAGE_LABEL).meta[image_id]
+        st.session_state["query"] = {
+            "kind": "catalog", "key": vote["query_id"], "image_id": image_id,
+            "attrs": {a: meta.get(a, "") for a in S.ATTRIBUTES},
+        }
+    st.session_state["cmp_level"] = vote["level"]
+    st.session_state[f"cmp_method_{vote['level']}"] = vote["method"]
+
+
+def result_strip(ids: list[str], other: set[str]) -> None:
+    for start in range(0, len(ids), 5):
+        for slot, image_id in zip(st.columns(5), ids[start : start + 5], strict=False):
+            image = thumbnail(image_id)
+            if image is not None:
+                slot.image(image, width="stretch")
+            slot.caption(("🟢 " if image_id in other else "") + identity_markdown(image_id))
+
+
+with tab_human:
+    st.caption(
+        "Every saved vote with the query and the two result lists exactly as they were shown. "
+        "Pick one to review it, change the vote, or reload it in Compare."
+    )
+    saved = S.latest_votes(S.load_votes(VOTES_CSV))
+    if not saved:
+        st.info("No votes yet. Vote on the Compare tab and it appears here.")
+    else:
+        votes = sorted(saved.values(), key=lambda v: v["time"], reverse=True)
+        counts = pd.Series([v["vote"] for v in votes]).value_counts()
+        st.markdown("  ·  ".join(f"**{name}**: {counts.get(name, 0)}" for name in ("A", "B", "tie")) + f"  ·  {len(votes)} voted")
+        st.dataframe(
+            pd.DataFrame(votes)[["time", "query_id", "level", "method", "k", "overlap", "vote"]],
+            hide_index=True, width="stretch",
+        )
+        def vote_name(v):
+            return f"{v['query_id']} · {v['level']} · {v['method']} · voted {v['vote']}"
+
+        chosen = st.selectbox("Review a vote", votes, format_func=vote_name, key="human_pick")
+        ids_a, ids_b = chosen["results_a"].split("|"), chosen["results_b"].split("|")
+        head, body = st.columns([1, 4])
+        if chosen["query_kind"] == "catalog":
+            image_id = chosen["query_id"].removeprefix("id:")
+            path = S.image_path(image_id)
+            if path is not None:
+                head.image(str(path), caption="Input image", width="stretch")
+            head.markdown(identity_markdown(image_id))
+        else:
+            head.info(f"{chosen['query_kind']} query ({chosen['query_id']}); its image is not stored.")
+        with body:
+            st.markdown(f"**A** = {chosen['model_a']}")
+            result_strip(ids_a, set(ids_b))
+            st.markdown(f"**B** = {chosen['model_b']}")
+            result_strip(ids_b, set(ids_a))
+        options = ["A", "B", "tie"]
+        new_vote = st.radio(
+            "Vote", options, index=options.index(chosen["vote"]), horizontal=True,
+            key=f"human_vote_{vote_name(chosen)}",
+        )
+        left, right = st.columns(2)
+        if left.button("Save changed vote", disabled=new_vote == chosen["vote"]):
+            S.log_vote(
+                VOTES_CSV,
+                {**chosen, "time": datetime.now(timezone.utc).isoformat(timespec="seconds"), "vote": new_vote},
+            )
+            st.rerun()
+        right.button("Load in Compare", on_click=load_in_compare, args=(chosen,))
