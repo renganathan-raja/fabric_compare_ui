@@ -1,9 +1,12 @@
 """Build the self-contained `deploy/` bundle the app (and Streamlit Cloud) runs from.
 
-Reads the two master CSVs of the fabric_discovery repo plus data/fashionclip_embedding/, and writes
+Reads the two master CSVs in data/master/ (cropped image vectors, attribute vectors with and without
+color_effect; built from the fabric_discovery masters by utils/embed_cropped.py and
+utils/generate_no_color_embedding.py), and writes
   deploy/catalog.csv                one row per image: image_id, rd_number, material_id, composition, 18 attributes
   deploy/fashionclip_attributes.csv one row per image: image_id + the FashionSigLIP-predicted attributes
-  deploy/gemini.npz, siglip.npz     ids, image / attr vectors (float16, unit length) and presence masks
+  deploy/gemini.npz, siglip.npz     ids, image / attr / attr_no_color vectors (float16, unit length) and
+                                    presence masks (has_image, has_attr, has_attr_no_color)
                                     (siglip attr = text embedding of FashionSigLIP's predicted attributes)
   deploy/thumbs/<image_id>.jpg      400 px thumbnails of the catalog images
 
@@ -25,6 +28,7 @@ import search as S  # noqa: E402
 from fabric_discovery.config.settings import settings  # noqa: E402
 
 DEPLOY = ROOT / "deploy"
+MASTER_DIR = ROOT / "data" / "master"
 THUMB_SIZE = 400
 BLANK = ("", "null", "nan")
 
@@ -40,12 +44,10 @@ def parse(text: str) -> np.ndarray:
 
 def main() -> None:
     DEPLOY.mkdir(exist_ok=True)
-    out_dir = settings.resolve_path(settings.output_dir)
     masters = {
-        "gemini": read(out_dir / settings.fabric_master_output),
-        # FashionSigLIP: image + text vectors of data/fashionclip_embedding/fashionclip_master.csv
-        # (its attribute_embedding embeds FashionSigLIP's own predicted attributes)
-        "siglip": read(ROOT / "data" / "fashionclip_embedding" / "fashionclip_master.csv"),
+        "gemini": read(MASTER_DIR / "gemini_master.csv"),
+        # FashionSigLIP: its attribute embeddings embed FashionSigLIP's own predicted attributes
+        "siglip": read(MASTER_DIR / "fashionclip_master.csv"),
     }
 
     # catalog metadata: Gemini master, one row per image (first non-blank composition, all rd_numbers)
@@ -68,7 +70,7 @@ def main() -> None:
 
     # FashionSigLIP-predicted attributes (one row per image)
     seen = {}
-    for r in read(ROOT / "data" / "fashionclip_embedding" / "fashionclip_master.csv"):
+    for r in masters["siglip"]:
         seen.setdefault(r["image_id"], {"image_id": r["image_id"], **{a: r.get(a, "") for a in S.ATTRIBUTES}})
     with (DEPLOY / "fashionclip_attributes.csv").open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=["image_id", *S.ATTRIBUTES])
@@ -82,6 +84,8 @@ def main() -> None:
         attr = np.zeros((len(image_ids), dim), dtype=np.float32)
         has_image = np.zeros(len(image_ids), dtype=bool)
         has_attr = np.zeros(len(image_ids), dtype=bool)
+        attr_no_color = np.zeros((len(image_ids), dim), dtype=np.float32)
+        has_attr_no_color = np.zeros(len(image_ids), dtype=bool)
         position = {i: n for n, i in enumerate(image_ids)}
         for r in model_rows:
             n = position.get(r["image_id"])
@@ -89,13 +93,16 @@ def main() -> None:
                 continue
             if not has_image[n] and r["image_embedding"]:
                 image[n], has_image[n] = parse(r["image_embedding"]), True
+            if not has_attr_no_color[n] and r.get("attribute_embedding_no_color"):
+                attr_no_color[n], has_attr_no_color[n] = parse(r["attribute_embedding_no_color"]), True
             if not has_attr[n] and r["attribute_embedding"]:
                 attr[n], has_attr[n] = parse(r["attribute_embedding"]), True
         np.savez_compressed(
             DEPLOY / f"{kind}.npz", ids=np.array(image_ids), has_image=has_image, has_attr=has_attr,
             image=S.normalise(image).astype(np.float16), attr=S.normalise(attr).astype(np.float16),
+            has_attr_no_color=has_attr_no_color, attr_no_color=S.normalise(attr_no_color).astype(np.float16),
         )
-        print(kind, dim, "images with image vector", int(has_image.sum()), "attr vector", int(has_attr.sum()))
+        print(kind, dim, "images with image vector", int(has_image.sum()), "attr vector", int(has_attr.sum()), "attr_no_color", int(has_attr_no_color.sum()))
 
     # thumbnails
     thumbs = DEPLOY / "thumbs"

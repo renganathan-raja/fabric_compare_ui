@@ -7,7 +7,7 @@ with its own attributes), **Scorecard** (Precision@k / Hit@k / MRR@k, relevant =
 ## Runtime data: `deploy/`
 
 The app reads only `deploy/` (about 37 MB): `catalog.csv`, `fashionclip_attributes.csv`, `gemini.npz`,
-`siglip.npz` and 400 px `thumbs/`. Rebuild it from the fabric_discovery master CSVs and images with
+`siglip.npz` and 400 px `thumbs/`. Rebuild it from the master CSVs in `data/master/` and the images with
 
 ```
 .venv/bin/python utils/prepare_deploy.py
@@ -15,6 +15,13 @@ The app reads only `deploy/` (about 37 MB): `catalog.csv`, `fashionclip_attribut
 
 `utils/embed_cropped.py --cropped <dir>` re-embeds the images from swatch-only crops (label removed) for both models,
 writes copies of the masters to `data/cropped_embedding/` and updates the image vectors and thumbnails in `deploy/`.
+
+`data/master/{fashionclip,gemini}_master.csv` hold, per row, the cropped image embeddings, the attribute
+embeddings (`attribute_embedding`) and the same attributes without `color_effect`
+(`attribute_embedding_no_color`, added by `utils/generate_no_color_embedding.py`, which needs the repo and,
+for Gemini, an API key). `deploy/*.npz` carries them as `attr` and `attr_no_color`; the sidebar radio
+**Attribute embedding** (With color / Without color) picks which one the Attributes and Image + attributes
+levels use, and the choice is saved with each vote (`attribute_embedding` column).
 
 The other scripts in `utils/` produced the FashionSigLIP attributes / embeddings
 (`generate_attribute.py`, `generate_image_embedding.py`, `combine_fashionclip.py`) and need the repo.

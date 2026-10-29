@@ -93,13 +93,18 @@ def save_vote(row: dict[str, str]) -> bool:
 
 
 @st.cache_resource(show_spinner="Loading embeddings…")
-def _corpus(label: str, weight: float) -> S.Corpus:
-    return S.load_corpus(S.MODELS[label], weight)
+def _corpus(label: str, weight: float, attr_key: str) -> S.Corpus:
+    return S.load_corpus(S.MODELS[label], weight, attr_key)
+
+
+def attr_key() -> str:
+    """Stored attribute vectors in use (sidebar "Attribute embedding")."""
+    return S.ATTR_VARIANTS[st.session_state.get("attr_variant", next(iter(S.ATTR_VARIANTS)))]
 
 
 def corpus_for(label: str) -> S.Corpus:
     fused = S.MODELS[label].level == S.LEVEL_FUSED
-    return _corpus(label, st.session_state.get("fuse_w", 0.5) if fused else 0.5)
+    return _corpus(label, st.session_state.get("fuse_w", 0.5) if fused else 0.5, attr_key())
 
 
 @st.cache_resource(show_spinner="Loading FashionSigLIP (first time downloads the weights)…")
@@ -212,6 +217,11 @@ image_weight = st.sidebar.slider(
     f"“{S.LEVEL_FUSED}”: weight of the image vector", 0.0, 1.0, 0.5, 0.05, key="fuse_w",
     help="fused = w·image + (1−w)·attributes, both unit-length, then renormalised.",
 )
+st.sidebar.radio(
+    "Attribute embedding", list(S.ATTR_VARIANTS), key="attr_variant",
+    help="Which attribute-text vectors the “Attributes” and “Image + attributes” levels use. "
+    "“Without color” embeds the same text minus color_effect. The Image level is unaffected.",
+)
 as_filter = st.sidebar.checkbox("Only rank images matching all checked attributes", value=False)
 run = st.sidebar.button("Run", type="primary", width="stretch")
 
@@ -268,7 +278,7 @@ query = st.session_state.get("query")
 def query_vector(label: str) -> tuple[np.ndarray, float]:
     """The query's vector in model `label` and the seconds it took (0 for catalog lookups)."""
     cache = st.session_state.setdefault("vec_cache", {})
-    key = (label, query["key"], image_weight if S.MODELS[label].level == S.LEVEL_FUSED else None)
+    key = (label, query["key"], image_weight if S.MODELS[label].level == S.LEVEL_FUSED else None, attr_key())
     if key not in cache:
         spec = S.MODELS[label]
         if query["kind"] == "catalog":
@@ -282,7 +292,7 @@ def query_vector(label: str) -> tuple[np.ndarray, float]:
             def embed_upload() -> np.ndarray:
                 if spec.level == S.LEVEL_IMAGE:
                     return S.embed_image(spec, path, siglip_model)
-                attr = S.embed_attributes(spec, query["attrs"], query["summary"], siglip_model)
+                attr = S.embed_attributes(spec, query["attrs"], query["summary"], siglip_model, attr_key())
                 if spec.level == S.LEVEL_ATTRS:
                     return attr
                 return S.fuse(S.embed_image(spec, path, siglip_model), attr, image_weight)
@@ -400,7 +410,7 @@ def level_results(results, corpus: S.Corpus, shared: set[str], query_attrs: dict
 def query_vectors(base: str) -> tuple[S.QueryVectors, float]:
     """The query's image and attribute vectors in model `base` (attribute may be None) and the seconds taken."""
     cache = st.session_state.setdefault("qvec_cache", {})
-    key = (base, query["key"])
+    key = (base, query["key"], attr_key())
     if key not in cache:
         spec = S.MODELS[f"{base} · {S.LEVEL_IMAGE}"]
         if query["kind"] == "catalog":
@@ -414,7 +424,7 @@ def query_vectors(base: str) -> tuple[S.QueryVectors, float]:
                 image = S.embed_image(spec, Path(query["path"]), siglip_model)
                 attr = None
                 if query["attrs"]:
-                    attr = S.embed_attributes(spec, query["attrs"], query["summary"], siglip_model)
+                    attr = S.embed_attributes(spec, query["attrs"], query["summary"], siglip_model, attr_key())
                 return S.QueryVectors(image, attr)
 
             start = time.perf_counter()
@@ -558,6 +568,7 @@ with tab_compare:
                         "overlap": str(len(shared)),
                         "checked_attributes": "|".join(checked),
                         "vote": vote or "",
+                        "attribute_embedding": attr_key(),
                     },
                 )
                 if saved_ok:
@@ -566,7 +577,7 @@ with tab_compare:
 
 
 @st.cache_data(show_spinner="Scoring…")
-def score_table(n_queries: int, seed: int, k_score: int, weight: float):
+def score_table(n_queries: int, seed: int, k_score: int, weight: float, attr: str):
     """Retrieval metrics of every model / level on random catalog queries (cached per setting)."""
     labels_all = list(S.MODELS)
     corpora = {label: corpus_for(label) for label in labels_all}
@@ -590,7 +601,7 @@ with tab_score:
     n_queries = st.slider("Queries", 50, 1000, 300, 50, key="score_n")
     seed = st.number_input("Random seed", 0, 9999, 13, key="score_seed")
     k_score = st.slider("k", 1, 20, 5, key="score_k")
-    table, n_chosen, n_pool = score_table(n_queries, int(seed), k_score, image_weight)
+    table, n_chosen, n_pool = score_table(n_queries, int(seed), k_score, image_weight, attr_key())
     st.caption(f"{n_chosen} queries from {n_pool} images whose composition is shared by another image.")
     st.dataframe(table.style.format({c: "{:.3f}" for c in table.columns[1:]}), width="stretch")
     st.bar_chart(table.drop(columns="level"), horizontal=True)

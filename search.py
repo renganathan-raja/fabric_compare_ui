@@ -37,6 +37,10 @@ ATTRIBUTES = [
     "embellishment",
 ]
 UNKNOWN = ("unsure", "")
+ATTRIBUTES_NO_COLOR = [a for a in ATTRIBUTES if a != "color_effect"]
+# which stored attribute vectors the Attributes / Image + attributes levels use (arrays in deploy/*.npz)
+ATTR_WITH_COLOR, ATTR_NO_COLOR = "attr", "attr_no_color"
+ATTR_VARIANTS = {"With color": ATTR_WITH_COLOR, "Without color (color_effect left out)": ATTR_NO_COLOR}
 
 
 LEVEL_IMAGE, LEVEL_ATTRS, LEVEL_FUSED = "Image", "Attributes", "Image + attributes"
@@ -113,16 +117,22 @@ def load_catalog() -> dict[str, dict[str, str]]:
         return {row["image_id"]: row for row in csv.DictReader(handle)}
 
 
-def load_corpus(spec: ModelSpec, image_weight: float = 0.5) -> Corpus:
-    """Images of `spec`'s .npz that have every vector its level needs."""
+def load_corpus(spec: ModelSpec, image_weight: float = 0.5, attr_key: str = ATTR_WITH_COLOR) -> Corpus:
+    """Images of `spec`'s .npz that have every vector its level needs.
+
+    `attr_key` picks the attribute vectors: `attr` (all attributes) or `attr_no_color`.
+    """
     data = np.load(DEPLOY / spec.master)
+    if attr_key not in data.files:
+        raise ValueError(f"{spec.master} has no `{attr_key}` vectors; run utils/generate_no_color_embedding.py")
     catalog = load_catalog()
     ids = [str(i) for i in data["ids"]]
-    image, attr = data["image"].astype(np.float32), data["attr"].astype(np.float32)
+    image, attr = data["image"].astype(np.float32), data[attr_key].astype(np.float32)
+    has_attr = data["has_attr" if attr_key == ATTR_WITH_COLOR else f"has_{attr_key}"]
     keep = {
         LEVEL_IMAGE: data["has_image"],
-        LEVEL_ATTRS: data["has_attr"],
-        LEVEL_FUSED: data["has_image"] & data["has_attr"],
+        LEVEL_ATTRS: has_attr,
+        LEVEL_FUSED: data["has_image"] & has_attr,
     }[spec.level]
     rows = np.flatnonzero(keep)
     if spec.level == LEVEL_IMAGE:
@@ -236,15 +246,40 @@ def extract_query_attributes(path: Path) -> tuple[dict[str, str], dict]:
     return flatten_attributes(summary), summary
 
 
-def embed_attributes(spec: ModelSpec, flat: Mapping[str, str], summary: Mapping, siglip: Callable[[], object]) -> np.ndarray:
-    """Embed a query's attributes the way the master CSV's `attribute_embedding` was built."""
+def gemini_attribute_text(flat: Mapping[str, str], keys: Sequence[str]) -> str:
+    """"key: value; ..." over `keys`, skipping empty and "unsure" values ("none" is kept)."""
+    parts = [f"{k}: {flat[k].strip()}" for k in keys if flat.get(k, "").strip().lower() not in ("", "unsure")]
+    return "; ".join(parts)
+
+
+def embed_attributes(
+    spec: ModelSpec, flat: Mapping[str, str], summary: Mapping, siglip: Callable[[], object], attr_key: str = ATTR_WITH_COLOR
+) -> np.ndarray:
+    """Embed a query's attributes the way the master CSV's `attribute_embedding` (or, for
+    `attr_no_color`, `attribute_embedding_no_color`) was built."""
+    no_color = attr_key == ATTR_NO_COLOR
     if spec.kind == "siglip":
         from fabric_discovery.utils.fashionclip_embedding import attribute_text
 
-        text = attribute_text(flat)
+        text = attribute_text(flat, ATTRIBUTES_NO_COLOR) if no_color else attribute_text(flat)
         if not text:
             raise ValueError("no informative attributes to embed")
         return np.array(siglip().embed_texts([text])[0], dtype=np.float32)  # type: ignore[attr-defined]
+    if no_color:
+        from google.genai import types
+
+        from fabric_discovery.config.settings import settings
+        from fabric_discovery.utils.embedding_client import build_client
+
+        text = gemini_attribute_text(flat, ATTRIBUTES_NO_COLOR)
+        if not text:
+            raise ValueError("no informative attributes to embed")
+        result = build_client().models.embed_content(
+            model=settings.embedding_model_name,
+            contents=text,
+            config=types.EmbedContentConfig(output_dimensionality=settings.embedding_dimensions),
+        )
+        return np.array(result.embeddings[0].values, dtype=np.float32)
     from fabric_discovery.utils.embedding_client import build_client, embed_attributes_text
 
     return np.array(embed_attributes_text(build_client(), summary), dtype=np.float32)
@@ -267,7 +302,7 @@ def log_vote(path: Path, row: Mapping[str, str]) -> None:
 
 VOTE_FIELDS = (
     "time", "query_id", "query_kind", "level", "method", "k", "model_a", "model_b",
-    "results_a", "results_b", "overlap", "checked_attributes", "vote",
+    "results_a", "results_b", "overlap", "checked_attributes", "vote", "attribute_embedding",
 )
 
 
